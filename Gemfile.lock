@@ -58,6 +58,7 @@ GEM
 
 PLATFORMS
   x86-linux
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 3.9)
