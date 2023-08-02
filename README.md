@@ -1,30 +1,15 @@
-Agency Jekyll theme
-====================
+📁 Portfolio Project on GitHub created with Ruby, Jekyll, and Sass on Linux 🐧
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Hello everyone! 👋
 
-# How to use
+This is my personal portfolio project for GitHub, developed using Ruby, Jekyll, and Sass on Linux. The portfolio is based on the Agency theme, a Bootstrap template, which gives my site a modern and elegant design.
 
-###Portfolio 
+💼 **Portfolio**: You can explore my projects in the '/_posts' section. Related images are located in the '/img/portfolio' folder.
 
-Portfolio projects are in '/_posts'
+👤 **About**: Get to know more about me in the 'About' section. You can also find relevant images in '/img/about/'.
 
-Images are in '/img/portfolio'
+If you have any questions, collaboration proposals, or just want to get in touch, feel free to contact me via email at domirandar@unal.edu.co or by phone at +573015740156.
 
-###About
+I want to acknowledge the original theme creator for the inspiration! 🙌 Hope you enjoy my portfolio! 😄
 
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+🚀 Thank you for visiting my page! 🌟
