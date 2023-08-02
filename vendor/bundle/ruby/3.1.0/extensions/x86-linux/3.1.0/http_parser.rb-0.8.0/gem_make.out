@@ -1,0 +1,23 @@
+current directory: /home/dave/Documentos/davidongo93.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230801-13235-75epur.rb extconf.rb
+creating Makefile
+
+current directory: /home/dave/Documentos/davidongo93.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /home/dave/Documentos/davidongo93.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+ruby_http_parser.c: In function ‘Parser_execute’:
+ruby_http_parser.c:370:71: warning: format ‘%zu’ expects argument of type ‘size_t’, but argument 4 has type ‘long int’ [-Wformat=]
+  370 |       rb_raise(eParserError, "Could not parse data entirely (%zu != %zu)", nparsed, len);
+      |                                                                     ~~^             ~~~
+      |                                                                       |             |
+      |                                                                       unsigned int  long int
+      |                                                                     %lu
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/dave/Documentos/davidongo93.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20230801-13235-iyqerp
