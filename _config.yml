@@ -1,61 +1,35 @@
 # Site settings
-title: Dave's Portfolio
+title: Experience Showcase
 email: domirandar@unal.edu.co
-description: "Letś chek out my showcase"
+description: "Personal Site Developer"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: David Orlando Miranda
+    pic: 1
+    position: Full stack developer 
+    social:
+      - title: twitter
+        url: 
+      - title: github
+        url: http://github.com/davidongo93
+      - title: linkedin
+        url: https://www.linkedin.com/in/david-orlando-miranda-roa-7239b0264/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://twitter.com/DavidMiranda93
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/davidongo93
+  - title: linkedin
+    url: https://www.linkedin.com/in/david-orlando-miranda-roa-7239b0264/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: ----
+  - line: Bogotá-Colombia-South america.
 
 # Build settings
 markdown: kramdown
