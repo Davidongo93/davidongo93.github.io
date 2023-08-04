@@ -1,0 +1,17 @@
+---
+title: Henry Art Gallery
+subtitle: Art trading Website
+layout: default
+modal-id: 1
+date: 2023-07-01
+img: pf.jpg
+thumbnail: pf-thumbnail.jpg
+alt: image-alt
+project-date: July 2023
+client: Henry Graduation project
+client_website: https://pf-arts-client.vercel.app/
+repository: https://github.com/santigalardi/PF-Arts-Client
+video: https://youtu.be/1jWtWJrzroA
+category: Art trading, Photo bucket.
+description: Mi first full stack project working Database, Backend & front deployed on Vercel/Railway. Using NodeJs, Express, Postgres, React-Redux, Bootstrap.
+---
