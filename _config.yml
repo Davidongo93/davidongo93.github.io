@@ -7,7 +7,7 @@ description: "Portfolio showcase About my career"
 # Team names, titles and social links
 people:
   - name: David Orlando Miranda
-    pic: 1
+    pic: 2
     position: Full stack developer 
     social:
       - title: twitter
