@@ -651,9 +651,20 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
+/* Estilos para el contenedor de los clientes */
+aside.clients .container {
+    display: flex;
+    flex-wrap: nowrap; /* Esto asegura que los elementos se mantengan en una sola fila sin envolver */
+    justify-content: center; /* Esto centra los elementos dentro del contenedor */
 }
+
+/* Estilos para los elementos individuales de los clientes */
+aside.clients a {
+    flex: 0 0 auto; /* Esto asegura que los elementos no se estiren y mantengan su tamaño original */
+
+}
+
+
 
 section#contact {
     background-color: #002D3C;

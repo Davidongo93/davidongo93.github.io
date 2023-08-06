@@ -1,38 +1,38 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Me</h2>
-                    <h3 class="section-subheading text-muted">Follow this nerd guy!</h3>
-                </div>
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About Me</h2>
+                <h3 class="section-subheading text-muted">Follow this passionate developer!</h3>
             </div>
-            <div class="row">
-                {% if site.people.size == 1 %}
-                <div class="col-sm-4 col-sm-offset-4 text-center">
-                {% else %}
-                <div class="col-sm-4">
-                {% endif %}
-                    <div class="team-member">
-                        <img src="img/team/{{ site.people[0].pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ site.people[0].name }}</h4>
-                        <p class="text-muted">{{ site.people[0].position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in site.people[0].social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        </div>
+        <div class="row">
+            {% if site.people.size == 1 %}
+            <div class="col-sm-4 col-sm-offset-4 text-center">
+            {% else %}
+            <div class="col-sm-4">
+            {% endif %}
+                <div class="team-member">
+                    <img src="img/team/{{ site.people[0].pic }}.jpg" class="img-responsive img-circle" alt="">
+                    <h4>{{ site.people[0].name }}</h4>
+                    <p class="text-muted">{{ site.people[0].position }}</p>
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.people[0].social %}
+                        <li>
+                            <a href="{{ network.url }}">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted">Persistent love, the driving force behind my coding journey.</p>
+            </div>
+        </div>
+    </div>
+</section>
