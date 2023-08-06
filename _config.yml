@@ -1,3 +1,4 @@
+url: https://davidongo93.github.io/
 # Site settings
 title: Experience Showcase
 email: domirandar@unal.edu.co
@@ -34,3 +35,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#plugins
+plugins:
+  - jekyll-seo-tag
