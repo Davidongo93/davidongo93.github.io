@@ -1,0 +1,18 @@
+---
+title: Food API Henry
+subtitle: Free recipes manager
+layout: default
+modal-id: 2
+date: 2023-08-10
+img: pi.jpg
+thumbnail: pi-thumbnail.jpg
+alt: image-alt
+project-date: May 2023
+project_website: https://food-frontend-six.vercel.app/
+client: Henry Individual Project
+client_website: https://www.soyhenry.com/
+repository: https://github.com/Davidongo93/Food-backend/
+video: https://youtu.be/1jWtWJrzroA
+category: Food recipes, API recipes, cook.
+description: A Javascript fullstack project, Frontend developed with react and redux, Backend with nodejs using express and sequelize to Manage Postgres 
+---

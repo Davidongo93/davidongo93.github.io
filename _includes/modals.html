@@ -18,7 +18,7 @@
                         <p>{{ post.description }}</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="{{ post.client_website }}">{{ post.client }}</a></strong>
+                                <strong><a href="{{ post.client_website }}" target="_blank">{{ post.client }}</a></strong>
                             </li>
                             <li>Date:
                                 <strong><a>{{ post.project-date }}</a></strong>
@@ -29,13 +29,13 @@
                         </ul>
                         <ul class="list-inline item-details">
                             <li>Project Website:
-                                <strong><a href="{{ post.project_website }}">{{ post.project_website }}</a></strong>
+                                <strong><a href="{{ post.project_website }}" target="_blank">{{ post.project_website }}</a></strong>
                             </li>
                             <li>GitHub Repository:
-                                <strong><a href="{{ post.repository }}">{{ post.repository }}</a></strong>
+                                <strong><a href="{{ post.repository }}" target="_blank">{{ post.repository }}</a></strong>
                             </li>
                             <li>Video:
-                                <strong><a href="{{ post.video }}">{{ post.video }}</a></strong>
+                                <strong><a href="{{ post.video }}" target="_blank">{{ post.video }}</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
