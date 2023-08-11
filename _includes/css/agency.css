@@ -4,6 +4,73 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+
+.card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: #{{ site.data.template.color.muted }};
+    font-family: {{ site.data.template.font.secondary }};
+}
+
+/* Estilos para las clases de las listas */
+.list-group {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    font-family: {{ site.data.template.font.primary }};
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.primary }};
+}
+
+.btn-primary {
+    border-color: #{{ site.data.template.color.primary }};
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
