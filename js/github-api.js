@@ -1,4 +1,3 @@
-// Realiza una solicitud fetch a la API de GitHub para obtener los datos de los repositorios
 fetch('https://api.github.com/users/davidongo93/repos')
   .then(response => response.json())
   .then(data => {
@@ -16,13 +15,11 @@ fetch('https://api.github.com/users/davidongo93/repos')
 
     const repoList = document.getElementById('repoList');
 
-    // Limpia el contenido previo de la lista de repositorios
     repoList.innerHTML = '';
 
-    // Recorre los datos de los repositorios y crea elementos para mostrar la lista y la cantidad de commits
     data.forEach(repo => {
       const listItem = document.createElement('li');
-      const repoName = repo.full_name.split('/')[1]; // Obtén el nombre del repositorio
+      const repoName = repo.full_name.split('/')[1];
       listItem.textContent = `${repoName}`;
 
       const commitsElement = document.createElement('span');
@@ -40,6 +37,19 @@ fetch('https://api.github.com/users/davidongo93/repos')
       listItem.appendChild(commitsElement);
       repoList.appendChild(listItem);
     });
+
+    // Nueva solicitud fetch para obtener información del usuario
+    fetch('https://api.github.com/users/davidongo93')
+      .then(response => response.json())
+      .then(userData => {
+        const userInfo = document.getElementById('userInfo');
+        userInfo.textContent = `Username: ${userData.login}, Name: ${userData.name}, Location: ${userData.location}`;
+      })
+      .catch(error => {
+        console.error(error);
+        const userInfo = document.getElementById('userInfo');
+        userInfo.textContent = 'User information not available';
+      });
   })
   .catch(error => {
     console.error(error);
