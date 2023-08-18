@@ -1,0 +1,18 @@
+---
+title: ASMR pocket
+subtitle: your asmr confident player
+layout: default
+modal-id: 3
+date: 2023-08-17
+img: underconstruction.jpg
+thumbnail: underconstruction-thumbnail.png
+alt: asmr pocket
+project-date: Aug 2023
+project_website: 
+client: Independant project
+client_website: 
+repository: https://github.com/Davidongo93/ASMRpocket
+video:
+category: ASMR, player, soundbank, relax, enjoy.
+description: A Javascript fullstack project, Frontend developed with react native, Backend with nodejs using express and mongoose to manage mongoDb
+---
