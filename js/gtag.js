@@ -11,6 +11,3 @@ window.addEventListener('load', function() {
   }
 });
 
-script.addEventListener('error', function(event) {
-  console.error("Error loading Google Tag Manager script:", event);
-});
