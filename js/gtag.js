@@ -5,6 +5,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+console.log("Welcome dev...")
   gtag('config', 'G-5Q8HLX9RJ1');
 </script>
