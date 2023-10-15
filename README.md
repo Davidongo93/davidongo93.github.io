@@ -1,4 +1,4 @@
-📁 Portfolio Project on GitHub created with Ruby, Jekyll, and Sass on Linux 🐧
+📁 Portfolio Project on GitHub created with Ruby, Jekyll, and Sass.
 
 Hello everyone! 👋
 
