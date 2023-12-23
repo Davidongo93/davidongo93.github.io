@@ -4,8 +4,7 @@ title: Experience Showcase
 email: domirandar@unal.edu.co
 description: "Portfolio showcase About my career"
 
-
-# Team names, titles and social links
+# Team names, titles, and social links
 people:
   - name: David Orlando Miranda
     pic: 2
@@ -30,12 +29,16 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: ----
-  - line: Bogotá-Colombia-South america.
+  - line: Bogotá-Colombia-South America.
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-#plugins
+# Plugins
 plugins:
   - jekyll-seo-tag
+
+# Assets
+include:
+  - assets
