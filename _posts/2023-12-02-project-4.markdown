@@ -1,0 +1,18 @@
+---
+title: Kevin Alexander Galeano
+subtitle: Rescatista - Bombero - Instructor de Alturas
+layout: default
+modal-id: 4
+date: 2023-12-02
+img: rescatista.jpg
+thumbnail: rescatista-thumbnail.jpg
+alt: image-alt
+project-date: July 2023
+project_website: https://pf-arts-client.vercel.app/
+client: Henry Graduation project
+client_website: https://www.soyhenry.com/
+repository: https://github.com/santigalardi/PF-Arts-Client
+video: https://youtu.be/1jWtWJrzroA
+category: Art trading, Photo bucket.
+description: My first full stack project working Database, Backend & front deployed on Vercel/Railway. Using NodeJs, Express, Postgres, React-Redux, Bootstrap.
+---
