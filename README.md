@@ -10,3 +10,5 @@ If you have any questions, collaboration proposals, or just want to get in touch
 I want to acknowledge the original theme creator for the inspiration! 🙌 Hope you enjoy my portfolio! 😄
 
 🚀 Thank you for visiting my page! 🌟
+
+# bundle exec jekyll serve
