@@ -337,19 +337,30 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('https://res.cloudinary.com/de43jseoy/image/upload/v1704839361/davidongo93/bnpsi3d16odqonsubxyi.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    margin-bottom: 50px;
+    align-self: flex-end; /* Posiciona el contenedor en la parte inferior */
 }
+header .download-buttons {
+    margin-top: auto; /* Ajusta el margen superior para que esté en la parte inferior */
+}
+
+
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
