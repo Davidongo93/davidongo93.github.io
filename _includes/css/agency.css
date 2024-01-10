@@ -337,13 +337,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('https://res.cloudinary.com/de43jseoy/image/upload/v1704839361/davidongo93/bnpsi3d16odqonsubxyi.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
 }
 
 header .intro-text {
