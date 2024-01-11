@@ -1,0 +1,18 @@
+---
+title: Java Upskill course notes
+subtitle: notes from Java Upskill course. + 300 hours of team learning.
+layout: default
+modal-id: 5
+date: 2023-12-02
+img: javaUpskill.png
+thumbnail: javaUpskill-thumbnail.png
+alt: Java Upskill
+project-date: December 2023
+project_website:
+client: Henry
+client_website:
+repository: https://github.com/Davidongo93/UpskillJava
+video:
+category: Java console APP
+description: A console application that gathers the key concepts of Java and Java Spring Boot from the Java Upskill course by Henry.
+---
