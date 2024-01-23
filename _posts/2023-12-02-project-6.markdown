@@ -1,0 +1,18 @@
+---
+title: MoneyWiseAPI
+subtitle: A personal Expenses control build with SpringBoot.
+layout: default
+modal-id: 5
+date: 2023-12-02
+img: moneyWise.png
+thumbnail: moneyWise-thumbnail.png
+alt: MoneyWise
+project-date: December 2023
+project_website:
+client: Henry Upskill Java
+client_website:
+repository: https://github.com/Davidongo93/moneywiseAPI
+video:
+category: Java SpringBoot API
+description: This API was designed to record income and expenses and improve personal finances.
+---
