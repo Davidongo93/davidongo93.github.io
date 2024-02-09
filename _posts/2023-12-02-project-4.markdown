@@ -8,10 +8,10 @@ img: rescatista.png
 thumbnail: rescatista-thumbnail.png
 alt: Rescatista project
 project-date: December 2023
-project_website: https://kgb-rescatista.vercel.app/
+project_website: https://rescatista.vercel.app/
 client: Kevin Galeano Barbosa
 client_website:
-repository: https://github.com/davidongo93/Kgb-rescatista
+repository: https://github.com/davidongo93/rescatista
 video:
 category: Personal Brand Portfolio
 description: NextJs-Tailwind portfolio.
