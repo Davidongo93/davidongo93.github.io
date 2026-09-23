@@ -1,20 +1,326 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DÆV — David Orlando Miranda · Full Stack Developer (text mode)</title>
+<meta name="description" content="David Orlando Miranda, specialized full stack developer. Custom websites, landing pages, scalable web apps and robust backends. The text-mode edition of daev.space: no CSS, no JavaScript, no images.">
+<meta name="author" content="David Orlando Miranda">
+</head>
+<body>
+<!--
+   You are reading the source. Good.
+   This page is plain HTML: no CSS, no JavaScript, no images.
+   Everything you see is text. Everything except one link is black and white.
+-->
+<pre>
+██████   ▄█████████  ██    ██
+██   ██  ██   ██     ██    ██
+██   ██  █████████   ██    ██
+██   ██  ██   ██      ██  ██
+██████   ██   ██████   ████
+</pre>
+<p><b>David Orlando Miranda</b> — Full Stack Developer · Colombia<br>
+<small>text-mode edition · 0 bytes of CSS · 0 bytes of JavaScript · 0 images</small></p>
 
-<div class="home">
+<p>There is exactly one link on this page, and it is the only thing in colour:
+<a href="https://daev.space/en"><font color="#00b8d4"><b>&gt;&gt; daev.space &lt;&lt;</b></font></a>
+— the full version, with the colours back on.</p>
 
-  <h1>Posts</h1>
+<hr>
+<h2>NAME</h2>
+<p><b>daev</b> — David Orlando Miranda, specialized full stack developer.</p>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<h2>SYNOPSIS</h2>
+<pre>daev [--custom-websites]
+     [--landing-pages]
+     [--scalable-web-apps]
+     [--robust-backend]
+     &lt;your-business&gt;</pre>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<h2>DESCRIPTION</h2>
+<p>I build fast, scalable web products, from the first idea to production. I care about great user experience and shipping software that delivers real results for people and businesses.</p>
+<pre>
++---------------------+---------------------+
+|         15+         |         4+          |
+|  years working in   |      years as a     |
+|     technology      | full stack developer|
++---------------------+---------------------+
+|         45+         |          6          |
+| projects delivered  | sites delivered per |
+| and producing value |   month in 2026     |
++---------------------+---------------------+
+</pre>
 
-</div>
+<h2>CLIENTS</h2>
+<marquee scrollamount="4">Chez Boaz Tours   ·   Climb Rock   ·   Ópticas Apolo Visión   ·   Colombian Cannabis Center   ·   Kevin Galeano — Rescatista   ·   and 30+ law firms and professional practices through DigitalYa</marquee>
+
+<hr>
+<h2>WORK</h2>
+<p>Real businesses, real deadlines, real numbers. Each window is a site that shipped; open a case to read it.</p>
+<pre>.--------------------------------------------.
+| o chezboaztours.domirandar.workers.dev     |
+|============================================|
+| CHEZ BOAZ TOURS                            |
+| Tourism · Santa Marta, Colombia · 2026     |
+|                                            |
+| Rebuilt with online booking and deposits:  |
+| mobile load time down from 7.9 s to 1.6 s. |
+&#x27;--------------------------------------------&#x27;</pre>
+<details><summary>[+] read the case</summary>
+<p><b>The problem.</b> Their WordPress site took almost 8 seconds to load on mobile, had broken buttons and sections that never rendered, and could not take a single payment online.</p><p><b>What I built.</b> I rebuilt it from scratch as a static Astro site on Cloudflare Workers: 2026 tour catalogue, cart, checkout with a 30% deposit through Bold, and TravelAgency structured data.</p><pre>Mobile LCP
+  before    7.90 s ##########################
+  after     1.62 s #####
+
+Page weight
+  before    3.1 MB ##########################
+  after     499 KB ####
+
+Blocking time
+  before  2,905 ms ##########################
+  after     211 ms ##
+
+Requests
+  before       102 ##########################
+  after         15 ####</pre><p><small>Role: Design &amp; full stack · Built with Astro, TypeScript, Cloudflare Workers, D1, Bold</small></p>
+</details><pre>.--------------------------------------------.
+| o o o  climbrock.domirandar.workers.dev    |
+|============================================|
+| CLIMB ROCK                                 |
+| Industrial safety · Bogotá, Colombia ·     |
+| 2026                                       |
+|                                            |
+| Their first website: six service lines and |
+| a quote request in a single tap.           |
+&#x27;--------------------------------------------&#x27;</pre>
+<details><summary>[+] read the case</summary>
+<p><b>The problem.</b> A fall-protection engineering company that manufactures its own hardware had no website at all: every quote request arrived through Facebook or word of mouth.</p><p><b>What I built.</b> A server-rendered Astro site on Cloudflare Workers covering their six service lines, with real project photography, the Resolution 4272 of 2021 compliance story and one-tap WhatsApp quoting.</p><ul><li>Six service lines published with their own landing content</li><li>Quote request in a single tap, with context pre-filled</li><li>Rendered at the edge on Cloudflare Workers</li><li>ProfessionalService structured data for local search</li></ul><p><small>Role: Design &amp; full stack · Built with Astro, SSR, Cloudflare Workers, Supabase, TypeScript</small></p>
+</details><pre>.--------------------------------------------.
+| o o o  opticasapolovision.com              |
+|============================================|
+| ÓPTICAS APOLO VISIÓN                       |
+| Optical retail · Bogotá &amp; Girardot,        |
+| Colombia · 2026                            |
+|                                            |
+| Online store with a searchable catalogue,  |
+| nationwide shipping and eye-exam booking.  |
+&#x27;--------------------------------------------&#x27;</pre>
+<details><summary>[+] read the case</summary>
+<p><b>The problem.</b> An optician with two branches and fifteen years of customers could only sell in person — there was no way to browse frames or book an eye exam online.</p><p><b>What I built.</b> A custom e-commerce store with a searchable catalogue of sunglasses, frames, lenses and drops, cart and checkout, nationwide shipping and online eye-exam booking.</p><ul><li>Full catalogue online with search and wishlist</li><li>Checkout with nationwide shipping</li><li>Eye-exam booking for both branches</li></ul><p><small>Role: Design &amp; full stack · Built with Next.js, TypeScript, Tailwind CSS, E-commerce</small></p>
+</details><pre>.--------------------------------------------.
+| o o o  private platform                    |
+|============================================|
+| AGRO LEDGER                                |
+| Agritech · Traceability &amp; compliance ·     |
+| 2025 – 2026                                |
+|                                            |
+| Plant-to-batch traceability platform for a |
+| regulated crop, built for audits.          |
+&#x27;--------------------------------------------&#x27;</pre>
+<details><summary>[+] read the case</summary>
+<p><b>The problem.</b> Regulated cannabis cultivation has to prove the traceability of every plant, and the operation was tracking it on spreadsheets that no audit would accept.</p><p><b>What I built.</b> I led the development of the agricultural management and traceability platform: batch tracking, roles and auditing, aligned with Colombian regulation and international standards.</p><ul><li>Plant-to-batch traceability built for audit</li><li>Role-based access across the operation</li><li>Containerised API with documented endpoints</li></ul><p><small>Role: Tech lead &amp; full stack · Built with Next.js, NestJS, PostgreSQL, Docker, TypeScript · Client: Colombian Cannabis Center</small></p>
+</details><pre>.--------------------------------------------.
+| o o o  rescatista.vercel.app               |
+|============================================|
+| KEVIN GALEANO — RESCATISTA                 |
+| Personal brand · Rescue &amp; training · 2026  |
+|                                            |
+| Personal brand with a gallery of real      |
+| operations and every channel in one place. |
+&#x27;--------------------------------------------&#x27;</pre>
+<details><summary>[+] read the case</summary>
+<p><b>The problem.</b> A firefighter and vertical-rescue instructor with fifteen years in the field had his whole portfolio scattered across social media, with nowhere to send a prospective client.</p><p><b>What I built.</b> A personal site with a Cloudinary-backed photo gallery of real operations, his service lines and direct contact through every channel he already used.</p><ul><li>Optimised photo gallery served from Cloudinary</li><li>Every social channel funnelled into one contact point</li></ul><p><small>Role: Design &amp; front end · Built with Next.js, Tailwind CSS, Cloudinary</small></p>
+</details>
+
+<h2>BACKEND</h2>
+<p>A backend has no screen, so here is the part that matters. Buying a raffle ticket, in one transaction with a row lock, so two buyers can never take the same number:</p>
+<pre>sequelize.transaction(async (tx) =&gt; {
+  // lock the row: nobody else can touch it
+  const raffle = await Raffle.findByPk(id, {
+    lock: Transaction.LOCK.UPDATE,
+    transaction: tx,
+  });
+  if (raffle.status !== &#x27;active&#x27;)
+    throw new BadRequest(&#x27;not active&#x27;);
+  if (raffle.tickets[number])
+    throw new BadRequest(`${number} is sold`);
+  // mark it sold + create the ticket, same tx
+});</pre>
+<ul>
+<li><b>Raffle Platform API</b> <i>(2025)</i> — API for a raffle platform. Each ticket purchase runs inside a transaction with a row lock, so two buyers can never take the same number. JWT sign-in with one-time codes, scheduled cleanup jobs and Swagger docs.<br><small>NestJS · PostgreSQL · Sequelize · JWT · Swagger · <code>(private repository)</code></small></li><li><b>VideoApp API</b> <i>(2024)</i> — Technical challenge for a backend-oriented role: users, videos, comments and likes with public and private visibility, authentication middleware, tests and an OpenAPI specification.<br><small>Express · TypeScript · PostgreSQL · Sequelize · OpenAPI · <code>github.com/Davidongo93/videoapp-API-challenge</code></small></li><li><b>Disruptive Media</b> <i>(2024)</i> — Content platform in an Nx monorepo: users, topics, categories and posts, with search, sorting and pagination in the API and a React client.<br><small>Express · MongoDB · Mongoose · Nx · React · <code>github.com/Davidongo93/disruptive-media</code></small></li><li><b>SFTP → REST Refactor</b> <i>(2024)</i> — Globant Java code camp: a loyalty-points batch process that read files over SFTP, refactored into a REST API with a service layer and repositories.<br><small>Java · Spring · Docker · REST · <code>github.com/Davidongo93/sftp-to-rest-refactor</code></small></li><li><b>Theatrical Players Refactor</b> <i>(2024)</i> — The classic refactoring kata, reworked with one strategy per play type so a new type is added without touching the invoice printer.<br><small>Java · Refactoring · Design patterns · <code>github.com/Davidongo93/theatrical-players-refactor</code></small></li><li><b>MoneyWise API</b> <i>(2023)</i> — Personal finance API from the Java Upskill course: income and expense entries per user, layered into controllers, services and repositories with DTOs.<br><small>Java 17 · Spring Boot · H2 · Thymeleaf · <code>github.com/Davidongo93/moneywiseAPI</code></small></li>
+</ul>
+
+<hr>
+<h2>SERVICES</h2>
+<pre>
+[1] Landing Pages
+    Fast, conversion-optimized landing pages
+    that turn visitors into customers.
+
+[2] Custom Websites
+    Bespoke corporate sites and portfolios —
+    responsive and SEO-ready.
+
+[3] E-commerce
+    Online stores with payment gateways, cart
+    and product management.
+
+[4] Educational Platforms (LMS)
+    Learning platforms with courses, roles,
+    progress tracking and assessments.
+
+[5] Custom Software
+    Tailored applications that automate and
+    solve your business&#x27;s specific needs.
+
+[6] SaaS Products
+    Scalable SaaS products with subscriptions,
+    multi-tenant and dashboards.
+</pre>
+<p><small>Fixed scope, fixed price, a date. Pricing lives at daev.space/en/pricing.</small></p>
+
+<hr>
+<h2>JOURNEY</h2>
+<p>Fifteen years in technology: from keeping networks and servers running to building web products end to end.</p>
+<pre>
+o--- May 2026 – present  &lt;- now
+|    Web &amp; SEO Developer
+|    @ DigitalYa
+|    Full cycle of websites for law firms and
+|    professional practices at a digital
+|    marketing agency: design, development,
+|    technical and local SEO, deployment, DNS
+|    and domain. 30 sites delivered in five
+|    months.
+|
+o--- 2023 – present
+|    Freelance Full Stack Developer
+|    @ Daev · freelance
+|    Websites, stores and platforms for my
+|    own clients, from the first call to
+|    their domain: Chez Boaz Tours, Ópticas
+|    Apolo Visión, Climb Rock and more.
+|
+o--- Sep 2024 – May 2026
+|    Technical Lead
+|    @ Colombian Cannabis Center
+|    Led the Agro Ledger traceability
+|    platform: backend design, a frontend
+|    team and the quality and information-
+|    security practices of a regulated
+|    operation.
+|
+o--- Jul 2023 – Aug 2024
+|    Full Stack Developer
+|    @ AppTender
+|    Migrated the legacy backend from Express
+|    to NestJS and built integrations with
+|    Meta, Brevo and OpenAI.
+|
+*--- Dec 2022 – Jul 2023  (education)
+|    Full Stack Bootcamp · 800 h
+|    @ Henry
+|    The turn from infrastructure to
+|    software: JavaScript, React, Node.js and
+|    SQL, followed by 300 h of Java.
+|
+o--- 2008 – 2022
+|    IT Support &amp; Infrastructure Technician
+|    @ Freelance IT
+|    Fourteen years keeping hardware,
+|    networks, operating systems and servers
+|    running for businesses and households,
+|    plus management apps on SQL Server and
+|    Access.
+
+o--- 2005
+     first line of code: a website for a
+     rock band, built in Dreamweaver
+</pre>
+
+<hr>
+<h2>ABOUT</h2>
+<pre>
+==+++++++++++++::---=+++==-*=...............
+-========----==..:-+*#%%%%%%#-:     ... ..::
+--==---=-------.=#%@@@@@@@@@@@+=-     ..:-:.
+--------------+###******###%%@%#++- .:::.
+-----------:-*#+====++====---+%@#-++.
+-------::::-*--=+++++++===--:-+#@#:*-
+-------::::#=.=++++++++**+=---=%@%%%#:
+:--:::::::=@.:=++++**#%##*+=--+@%%#%#-.
+:::::::::.*%-*%##*++*####*++=-+@@%%%%-.
+::::::::::+%*+#%#+==++**+++=--=%@@@%%#:
+::::::::::+%%:+*+-+--+++++==-=*%@@@@*-
+::::::::::#@@==++=**#****++==**##@@%-
+::::::::::-*%%+**#%%%##%%#*****#=++:.   ...-
+:::::::::::::--*%#*##***#%*####*==#*- :++=+*
+:::::::::::::. -#%*#%#**#%%%%#**####*+=**+++
+:::::::::::::. .:+#%%%%%%@@%###%#####@%####*
+::::::::.::::. .. .-#%%%%%##%%%#%%#%@@%@@%%%
+:::::::::::::. ... =@#+***#%%#%%%%@@@@@@@%%%
+:::::::::::::. .. +@@@#+#%@@%%@%%@@@@@@@@@@%
+:::::::....::  . :#@@@@#@@@@@@@@@@@@@@@@@%%%
+::.........::   =#*#%%@@@@@@@@@@@@@@@@@%%@%%
+............: .*@#***#@%@@@@@@%%%%%%@%%@@@@%
+...........:: =@%****%@#%%%%%%%%%%%@%#%@@@@%
+............: +%***#%@%#%%%#####%@@%#%@@@@%@
+</pre>
+<p><small>fig. 1 — the author, at work, rendered with 10 characters: <code>@%#*+=-:. </code></small></p>
+<p>I live in Colombia. Before code there were hardware, networks and servers; around it all, mountains, tour guiding and a bass guitar. All of it shows up in how I build: I care about the people who will use the thing.</p>
+
+<h2>BLOG</h2>
+<p>I write in Spanish, at daev.space/blog. The latest:</p>
+<pre>
+2026-07-31
+  Chucula de los 7 granos: la receta ancestral
+  que queremos revivir
+  (A seven-grain cacao drink we want to bring
+  back)
+
+2026-07-30
+  Proksanty: un viaje al origen del cacao en
+  Nilo, Cundinamarca
+  (A trip to the origin of cacao)
+
+2026-07-03
+  Chilcuague: la Raíz de Oro de México, su
+  historia y sus propiedades
+  (The golden root of Mexico)
+
+2026-06-28
+  El mundo se llenó de agentes Smith
+  (The world filled up with Agent Smiths)
+
+2026-06-23
+  Recalculando rumbo
+  (How I started programming)
+</pre>
+
+<h2>FAQ</h2>
+<details><summary>Who am I?</summary><p>I&#x27;m David Orlando Miranda, a Full Stack Developer based in Colombia. I build fast, scalable web products end to end —from the idea to production— with React, Next.js, Astro, Node.js, NestJS and TypeScript. I work under my personal brand, DÆV.</p></details>
+<details><summary>What can I build for you or your company?</summary><p>Landing pages, custom websites, e-commerce stores, educational platforms (LMS), custom software and full SaaS products. I work with both companies and individuals, and I can take a project from design through deployment and maintenance.</p></details>
+<details><summary>Am I available for new projects?</summary><p>Yes. I&#x27;m open to freelance projects and full-time roles, working remotely with teams across Latin America, the US and Europe. The fastest way to reach me is WhatsApp or email; tell me about your project and I&#x27;ll get back to you shortly.</p></details>
+<details><summary>Where am I based and what languages do I work in?</summary><p>I’m based in Colombia and I work in both Spanish and English, collaborating comfortably across time zones in the Americas and Europe.</p></details>
+
+<hr>
+<h2>CONTACT</h2>
+<pre>
+email      domirandar@gmail.com
+whatsapp   +573015740156
+github     github.com/Davidongo93
+linkedin   www.linkedin.com/in/domirandar/
+x          x.com/domirandar
+</pre>
+<p><b>Are you a recruiter?</b> My one-page CV is at <code>daev.space/cv/david-miranda-cv-en.pdf</code> — type it, it is short.</p>
+
+<hr>
+<h2>SEE ALSO</h2>
+<p>Scroll back up. The only link is there.</p>
+<pre>
+  (c) 2026 David Orlando Miranda
+  hand-drawn in a text editor
+  best viewed in any browser since 1995
+</pre>
+</body>
+</html>

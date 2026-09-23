@@ -1,0 +1,1308 @@
+{
+ "name": "David Orlando Miranda",
+ "alias": "DÆV",
+ "role": {
+  "en": "Full Stack Developer",
+  "es": "Desarrollador Full Stack"
+ },
+ "shortBio": {
+  "en": "Specialized Full Stack Developer",
+  "es": "Desarrollador Full Stack especializado"
+ },
+ "bio": {
+  "en": "I build fast, scalable web products, from the first idea to production. I care about great user experience and shipping software that delivers real results for people and businesses.",
+  "es": "Construyo productos web rápidos y escalables, desde la primera idea hasta producción. Me importa una gran experiencia de usuario y entregar software que genere resultados reales para personas y empresas."
+ },
+ "location": "Colombia",
+ "locationFlag": "🇨🇴",
+ "available": true,
+ "photo": "https://res.cloudinary.com/de43jseoy/image/upload/v1782355482/davidongo93/daveTrabaja_kxooa1.png",
+ "siteUrl": "https://daev.space",
+ "cv": {
+  "en": "/cv/david-miranda-cv-en.pdf",
+  "es": "/cv/david-miranda-cv-es.pdf"
+ },
+ "ogCard": {
+  "tagline": {
+   "en": "I build the web product your business needs",
+   "es": "Construyo el producto web que tu negocio necesita"
+  },
+  "offers": {
+   "en": [
+    "Custom websites",
+    "Landing pages",
+    "Scalable web apps",
+    "Robust backend logic"
+   ],
+   "es": [
+    "Sitios web a medida",
+    "Landing pages",
+    "Aplicaciones web escalables",
+    "Backend con lógica robusta"
+   ]
+  },
+  "cta": {
+   "en": "Taking new projects",
+   "es": "Disponible para proyectos"
+  }
+ },
+ "email": "domirandar@gmail.com",
+ "phone": "+573015740156",
+ "whatsapp": "https://wa.me/+573015740156",
+ "whatsappText": {
+  "en": "Hi Dave! I saw your portfolio and would like to chat about a project.",
+  "es": "¡Hola Dave! Vi tu portafolio y me gustaría hablar sobre un proyecto."
+ },
+ "links": {
+  "github": "https://github.com/Davidongo93",
+  "linkedin": "https://www.linkedin.com/in/domirandar/",
+  "twitter": "https://x.com/domirandar",
+  "instagram": "https://www.instagram.com/davegoes2rock/",
+  "discord": "https://discordapp.com/users/1072550664762298468"
+ },
+ "seo": {
+  "keywords": [
+   "Full Stack Developer",
+   "React Developer",
+   "Next.js Developer",
+   "TypeScript Developer",
+   "Node.js Developer",
+   "NestJS Developer",
+   "Freelance Developer Colombia",
+   "Full Stack Developer Colombia",
+   "Web Developer Bogotá",
+   "Desarrollador Full Stack Colombia",
+   "Desarrollador Freelance",
+   "Dave Miranda",
+   "David Orlando Miranda"
+  ],
+  "targetCountries": [
+   "CO",
+   "US",
+   "MX",
+   "ES",
+   "AR",
+   "CL"
+  ],
+  "targetCities": [
+   "Bogotá",
+   "Medellín",
+   "Cali",
+   "Madrid",
+   "Mexico City",
+   "Buenos Aires"
+  ]
+ },
+ "stats": {
+  "years": 4,
+  "itYears": 15,
+  "projects": 45,
+  "sitesPerMonth": 6,
+  "clients": 3
+ },
+ "experience": [
+  {
+   "company": "DigitalYa",
+   "kind": "work",
+   "current": true,
+   "role": {
+    "en": "Web & SEO Developer",
+    "es": "Desarrollador Web y SEO"
+   },
+   "period": {
+    "en": "May 2026 – present",
+    "es": "may 2026 – actual"
+   },
+   "description": {
+    "en": "Full cycle of websites for law firms and professional practices at a digital marketing agency: design, development, technical and local SEO, deployment, DNS and domain. 30 sites delivered in five months.",
+    "es": "Ciclo completo de sitios para estudios jurídicos y profesionales en una agencia de marketing digital: diseño, desarrollo, SEO técnico y local, despliegue, DNS y dominio. 30 sitios entregados en cinco meses."
+   },
+   "website": "https://digitalya.com.ar/"
+  },
+  {
+   "company": "Daev · freelance",
+   "kind": "work",
+   "current": false,
+   "role": {
+    "en": "Freelance Full Stack Developer",
+    "es": "Desarrollador Full Stack freelance"
+   },
+   "period": {
+    "en": "2023 – present",
+    "es": "2023 – actual"
+   },
+   "description": {
+    "en": "Websites, stores and platforms for my own clients, from the first call to their domain: Chez Boaz Tours, Ópticas Apolo Visión, Climb Rock and more.",
+    "es": "Sitios, tiendas y plataformas para clientes propios, de la primera llamada a su dominio: Chez Boaz Tours, Ópticas Apolo Visión, Climb Rock y otros."
+   },
+   "website": null
+  },
+  {
+   "company": "Colombian Cannabis Center",
+   "kind": "work",
+   "current": false,
+   "role": {
+    "en": "Technical Lead",
+    "es": "Líder técnico"
+   },
+   "period": {
+    "en": "Sep 2024 – May 2026",
+    "es": "sep 2024 – may 2026"
+   },
+   "description": {
+    "en": "Led the Agro Ledger traceability platform: backend design, a frontend team and the quality and information-security practices of a regulated operation.",
+    "es": "Lideré la plataforma de trazabilidad Agro Ledger: diseño del backend, un equipo frontend y las prácticas de calidad y seguridad de la información de una operación regulada."
+   },
+   "website": null
+  },
+  {
+   "company": "AppTender",
+   "kind": "work",
+   "current": false,
+   "role": {
+    "en": "Full Stack Developer",
+    "es": "Desarrollador Full Stack"
+   },
+   "period": {
+    "en": "Jul 2023 – Aug 2024",
+    "es": "jul 2023 – ago 2024"
+   },
+   "description": {
+    "en": "Migrated the legacy backend from Express to NestJS and built integrations with Meta, Brevo and OpenAI.",
+    "es": "Migré el backend heredado de Express a NestJS e integré Meta, Brevo y OpenAI."
+   },
+   "website": null
+  },
+  {
+   "company": "Henry",
+   "kind": "study",
+   "current": false,
+   "role": {
+    "en": "Full Stack Bootcamp · 800 h",
+    "es": "Bootcamp Full Stack · 800 h"
+   },
+   "period": {
+    "en": "Dec 2022 – Jul 2023",
+    "es": "dic 2022 – jul 2023"
+   },
+   "description": {
+    "en": "The turn from infrastructure to software: JavaScript, React, Node.js and SQL, followed by 300 h of Java.",
+    "es": "El giro de la infraestructura al software: JavaScript, React, Node.js y SQL, seguido de 300 h de Java."
+   },
+   "website": null
+  },
+  {
+   "company": "Freelance IT",
+   "kind": "work",
+   "current": false,
+   "role": {
+    "en": "IT Support & Infrastructure Technician",
+    "es": "Técnico de soporte e infraestructura IT"
+   },
+   "period": {
+    "en": "2008 – 2022",
+    "es": "2008 – 2022"
+   },
+   "description": {
+    "en": "Fourteen years keeping hardware, networks, operating systems and servers running for businesses and households, plus management apps on SQL Server and Access.",
+    "es": "Catorce años manteniendo equipos, redes, sistemas operativos y servidores de empresas y hogares, y aplicaciones de gestión sobre SQL Server y Access."
+   },
+   "website": null
+  }
+ ],
+ "skills": {
+  "frontend": [
+   "React",
+   "Next.js",
+   "Astro",
+   "Vue",
+   "TypeScript",
+   "Tailwind CSS",
+   "HTML",
+   "CSS"
+  ],
+  "backend": [
+   "Node.js",
+   "NestJS",
+   "Express",
+   "PostgreSQL",
+   "MongoDB",
+   "GraphQL",
+   "REST APIs"
+  ],
+  "tools": [
+   "Git",
+   "Docker",
+   "NX",
+   "Redux",
+   "Jest",
+   "Vercel",
+   "Cloudflare",
+   "GitHub Actions"
+  ]
+ },
+ "caseStudies": [
+  {
+   "slug": "chez-boaz-tours",
+   "name": "Chez Boaz Tours",
+   "product": null,
+   "summary": {
+    "en": "Rebuilt with online booking and deposits: mobile load time down from 7.9 s to 1.6 s.",
+    "es": "Reconstrucción con reservas y anticipo en línea: la carga en móvil bajó de 7,9 s a 1,6 s."
+   },
+   "sector": {
+    "en": "Tourism · Santa Marta, Colombia",
+    "es": "Turismo · Santa Marta, Colombia"
+   },
+   "problem": {
+    "en": "Their WordPress site took almost 8 seconds to load on mobile, had broken buttons and sections that never rendered, and could not take a single payment online.",
+    "es": "Su sitio en WordPress tardaba casi 8 segundos en cargar en móvil, tenía botones rotos y secciones que no cargaban, y no podía cobrar un solo peso en línea."
+   },
+   "work": {
+    "en": "I rebuilt it from scratch as a static Astro site on Cloudflare Workers: 2026 tour catalogue, cart, checkout with a 30% deposit through Bold, and TravelAgency structured data.",
+    "es": "Lo reconstruí desde cero como sitio estático en Astro sobre Cloudflare Workers: catálogo de tours 2026, carrito, checkout con anticipo del 30 % por Bold y datos estructurados de agencia de viajes."
+   },
+   "metrics": [
+    {
+     "value": "1,62 s",
+     "from": "7,90 s",
+     "label": {
+      "en": "Mobile LCP",
+      "es": "LCP en móvil"
+     }
+    },
+    {
+     "value": "499 KB",
+     "from": "3,1 MB",
+     "label": {
+      "en": "Page weight",
+      "es": "Peso de la página"
+     }
+    },
+    {
+     "value": "211 ms",
+     "from": "2.905 ms",
+     "label": {
+      "en": "Blocking time",
+      "es": "Tiempo de bloqueo"
+     }
+    },
+    {
+     "value": "15",
+     "from": "102",
+     "label": {
+      "en": "Requests",
+      "es": "Peticiones"
+     }
+    }
+   ],
+   "highlights": [],
+   "technologies": [
+    "Astro",
+    "TypeScript",
+    "Cloudflare Workers",
+    "D1",
+    "Bold"
+   ],
+   "liveUrl": "https://chezboaztours.domirandar.workers.dev",
+   "repoUrl": null,
+   "thumbnail": "/thumbnails/chezboaz.webp",
+   "gallery": [
+    "/work/chez-boaz-tours/1.webp",
+    "/work/chez-boaz-tours/2.webp",
+    "/work/chez-boaz-tours/3.webp"
+   ],
+   "year": "2026",
+   "role": {
+    "en": "Design & full stack",
+    "es": "Diseño y full stack"
+   }
+  },
+  {
+   "slug": "climb-rock",
+   "name": "Climb Rock",
+   "product": null,
+   "summary": {
+    "en": "Their first website: six service lines and a quote request in a single tap.",
+    "es": "Su primer sitio web: seis líneas de servicio y cotización en un solo toque."
+   },
+   "sector": {
+    "en": "Industrial safety · Bogotá, Colombia",
+    "es": "Seguridad industrial · Bogotá, Colombia"
+   },
+   "problem": {
+    "en": "A fall-protection engineering company that manufactures its own hardware had no website at all: every quote request arrived through Facebook or word of mouth.",
+    "es": "Una empresa de ingeniería de protección contra caídas que fabrica su propio herraje no tenía sitio web: cada solicitud de cotización llegaba por Facebook o por voz a voz."
+   },
+   "work": {
+    "en": "A server-rendered Astro site on Cloudflare Workers covering their six service lines, with real project photography, the Resolution 4272 of 2021 compliance story and one-tap WhatsApp quoting.",
+    "es": "Un sitio Astro renderizado en el servidor sobre Cloudflare Workers con sus seis líneas de servicio, fotografía real de obra, el respaldo normativo de la Resolución 4272 de 2021 y cotización por WhatsApp en un toque."
+   },
+   "metrics": [],
+   "highlights": [
+    {
+     "en": "Six service lines published with their own landing content",
+     "es": "Seis líneas de servicio publicadas con contenido propio"
+    },
+    {
+     "en": "Quote request in a single tap, with context pre-filled",
+     "es": "Cotización en un solo toque, con el contexto precargado"
+    },
+    {
+     "en": "Rendered at the edge on Cloudflare Workers",
+     "es": "Renderizado en el borde sobre Cloudflare Workers"
+    },
+    {
+     "en": "ProfessionalService structured data for local search",
+     "es": "Datos estructurados ProfessionalService para búsqueda local"
+    }
+   ],
+   "technologies": [
+    "Astro",
+    "SSR",
+    "Cloudflare Workers",
+    "Supabase",
+    "TypeScript"
+   ],
+   "liveUrl": "https://climbrock.domirandar.workers.dev",
+   "repoUrl": null,
+   "thumbnail": "/thumbnails/climbrock.webp",
+   "gallery": [
+    "/work/climb-rock/1.webp",
+    "/work/climb-rock/2.webp",
+    "/work/climb-rock/3.webp"
+   ],
+   "year": "2026",
+   "role": {
+    "en": "Design & full stack",
+    "es": "Diseño y full stack"
+   }
+  },
+  {
+   "slug": "opticas-apolo-vision",
+   "name": "Ópticas Apolo Visión",
+   "product": null,
+   "summary": {
+    "en": "Online store with a searchable catalogue, nationwide shipping and eye-exam booking.",
+    "es": "Tienda en línea con catálogo, envíos a todo el país y agendamiento del examen visual."
+   },
+   "sector": {
+    "en": "Optical retail · Bogotá & Girardot, Colombia",
+    "es": "Retail óptico · Bogotá y Girardot, Colombia"
+   },
+   "problem": {
+    "en": "An optician with two branches and fifteen years of customers could only sell in person — there was no way to browse frames or book an eye exam online.",
+    "es": "Una óptica con dos sedes y quince años de clientes sólo podía vender en el mostrador: no había forma de ver monturas ni agendar un examen visual en línea."
+   },
+   "work": {
+    "en": "A custom e-commerce store with a searchable catalogue of sunglasses, frames, lenses and drops, cart and checkout, nationwide shipping and online eye-exam booking.",
+    "es": "Una tienda e-commerce a medida con catálogo buscable de gafas, monturas, lentes y gotas, carrito y checkout, envío a todo el país y agendamiento del examen visual en línea."
+   },
+   "metrics": [],
+   "highlights": [
+    {
+     "en": "Full catalogue online with search and wishlist",
+     "es": "Catálogo completo en línea con búsqueda y favoritos"
+    },
+    {
+     "en": "Checkout with nationwide shipping",
+     "es": "Checkout con envío a todo el país"
+    },
+    {
+     "en": "Eye-exam booking for both branches",
+     "es": "Agendamiento del examen visual para las dos sedes"
+    }
+   ],
+   "technologies": [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "E-commerce"
+   ],
+   "liveUrl": "https://opticasapolovision.com/",
+   "repoUrl": null,
+   "thumbnail": "/thumbnails/apolo.webp",
+   "gallery": [
+    "/work/opticas-apolo-vision/1.webp",
+    "/work/opticas-apolo-vision/2.webp",
+    "/work/opticas-apolo-vision/3.webp"
+   ],
+   "year": "2026",
+   "role": {
+    "en": "Design & full stack",
+    "es": "Diseño y full stack"
+   }
+  },
+  {
+   "slug": "colombian-cannabis-center",
+   "name": "Colombian Cannabis Center",
+   "product": "Agro Ledger",
+   "summary": {
+    "en": "Plant-to-batch traceability platform for a regulated crop, built for audits.",
+    "es": "Plataforma de trazabilidad de planta a lote para un cultivo regulado, lista para auditoría."
+   },
+   "sector": {
+    "en": "Agritech · Traceability & compliance",
+    "es": "Agrotech · Trazabilidad y cumplimiento normativo"
+   },
+   "problem": {
+    "en": "Regulated cannabis cultivation has to prove the traceability of every plant, and the operation was tracking it on spreadsheets that no audit would accept.",
+    "es": "El cultivo de cannabis regulado tiene que demostrar la trazabilidad de cada planta, y la operación la llevaba en hojas de cálculo que ninguna auditoría aceptaría."
+   },
+   "work": {
+    "en": "I led the development of the agricultural management and traceability platform: batch tracking, roles and auditing, aligned with Colombian regulation and international standards.",
+    "es": "Lideré el desarrollo de la plataforma de gestión agrícola y trazabilidad: seguimiento de lotes, roles y auditoría, alineada con la norma colombiana y los estándares internacionales."
+   },
+   "metrics": [],
+   "highlights": [
+    {
+     "en": "Plant-to-batch traceability built for audit",
+     "es": "Trazabilidad de planta a lote pensada para auditoría"
+    },
+    {
+     "en": "Role-based access across the operation",
+     "es": "Acceso por roles en toda la operación"
+    },
+    {
+     "en": "Containerised API with documented endpoints",
+     "es": "API contenerizada con endpoints documentados"
+    }
+   ],
+   "technologies": [
+    "Next.js",
+    "NestJS",
+    "PostgreSQL",
+    "Docker",
+    "TypeScript"
+   ],
+   "liveUrl": null,
+   "repoUrl": null,
+   "thumbnail": "/thumbnails/agroledger.webp",
+   "gallery": [
+    "/work/colombian-cannabis-center/1.webp",
+    "/work/colombian-cannabis-center/2.webp",
+    "/work/colombian-cannabis-center/3.webp"
+   ],
+   "year": "2025 – 2026",
+   "role": {
+    "en": "Tech lead & full stack",
+    "es": "Líder técnico y full stack"
+   }
+  },
+  {
+   "slug": "kevin-galeano-rescatista",
+   "name": "Kevin Galeano — Rescatista",
+   "product": null,
+   "summary": {
+    "en": "Personal brand with a gallery of real operations and every channel in one place.",
+    "es": "Marca personal con galería de operaciones reales y todos sus canales en un solo lugar."
+   },
+   "sector": {
+    "en": "Personal brand · Rescue & training",
+    "es": "Marca personal · Rescate y formación"
+   },
+   "problem": {
+    "en": "A firefighter and vertical-rescue instructor with fifteen years in the field had his whole portfolio scattered across social media, with nowhere to send a prospective client.",
+    "es": "Un bombero e instructor de rescate vertical con quince años de campo tenía todo su portafolio disperso en redes sociales, sin un lugar propio a donde mandar a un cliente."
+   },
+   "work": {
+    "en": "A personal site with a Cloudinary-backed photo gallery of real operations, his service lines and direct contact through every channel he already used.",
+    "es": "Un sitio personal con galería fotográfica en Cloudinary de operaciones reales, sus líneas de servicio y contacto directo por todos los canales que ya usaba."
+   },
+   "metrics": [],
+   "highlights": [
+    {
+     "en": "Optimised photo gallery served from Cloudinary",
+     "es": "Galería fotográfica optimizada servida desde Cloudinary"
+    },
+    {
+     "en": "Every social channel funnelled into one contact point",
+     "es": "Todos los canales sociales concentrados en un punto de contacto"
+    }
+   ],
+   "technologies": [
+    "Next.js",
+    "Tailwind CSS",
+    "Cloudinary"
+   ],
+   "liveUrl": "https://rescatista.vercel.app",
+   "repoUrl": "https://github.com/Davidongo93/rescatista",
+   "thumbnail": "/thumbnails/rescatista.webp",
+   "gallery": [
+    "/work/kevin-galeano-rescatista/1.webp",
+    "/work/kevin-galeano-rescatista/2.webp",
+    "/work/kevin-galeano-rescatista/3.webp"
+   ],
+   "year": "2026",
+   "role": {
+    "en": "Design & front end",
+    "es": "Diseño y front end"
+   }
+  }
+ ],
+ "backendProjects": [
+  {
+   "name": "Raffle Platform API",
+   "year": "2025",
+   "description": {
+    "en": "API for a raffle platform. Each ticket purchase runs inside a transaction with a row lock, so two buyers can never take the same number. JWT sign-in with one-time codes, scheduled cleanup jobs and Swagger docs.",
+    "es": "API de una plataforma de rifas. Cada compra de boleta corre en una transacción con bloqueo de fila, así dos compradores nunca se quedan con el mismo número. Acceso con JWT y códigos de un solo uso, tareas programadas de limpieza y documentación en Swagger."
+   },
+   "technologies": [
+    "NestJS",
+    "PostgreSQL",
+    "Sequelize",
+    "JWT",
+    "Swagger"
+   ],
+   "repoUrl": null,
+   "thumbnail": "/backend/raffle-backend.webp"
+  },
+  {
+   "name": "VideoApp API",
+   "year": "2024",
+   "description": {
+    "en": "Technical challenge for a backend-oriented role: users, videos, comments and likes with public and private visibility, authentication middleware, tests and an OpenAPI specification.",
+    "es": "Reto técnico para un cargo orientado a backend: usuarios, videos, comentarios y likes con visibilidad pública y privada, middleware de autenticación, pruebas y especificación OpenAPI."
+   },
+   "technologies": [
+    "Express",
+    "TypeScript",
+    "PostgreSQL",
+    "Sequelize",
+    "OpenAPI"
+   ],
+   "repoUrl": "https://github.com/Davidongo93/videoapp-API-challenge",
+   "thumbnail": "/backend/videoapp-api.webp"
+  },
+  {
+   "name": "Disruptive Media",
+   "year": "2024",
+   "description": {
+    "en": "Content platform in an Nx monorepo: users, topics, categories and posts, with search, sorting and pagination in the API and a React client.",
+    "es": "Plataforma de contenidos en un monorepo Nx: usuarios, temas, categorías y publicaciones, con búsqueda, orden y paginación en la API y un cliente en React."
+   },
+   "technologies": [
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "Nx",
+    "React"
+   ],
+   "repoUrl": "https://github.com/Davidongo93/disruptive-media",
+   "thumbnail": "/backend/disruptive-media.webp"
+  },
+  {
+   "name": "SFTP → REST Refactor",
+   "year": "2024",
+   "description": {
+    "en": "Globant Java code camp: a loyalty-points batch process that read files over SFTP, refactored into a REST API with a service layer and repositories.",
+    "es": "Code camp de Java de Globant: un proceso por lotes de puntos de fidelización que leía archivos por SFTP, refactorizado a una API REST con capa de servicios y repositorios."
+   },
+   "technologies": [
+    "Java",
+    "Spring",
+    "Docker",
+    "REST"
+   ],
+   "repoUrl": "https://github.com/Davidongo93/sftp-to-rest-refactor",
+   "thumbnail": "/backend/sftp-to-rest.webp"
+  },
+  {
+   "name": "Theatrical Players Refactor",
+   "year": "2024",
+   "description": {
+    "en": "The classic refactoring kata, reworked with one strategy per play type so a new type is added without touching the invoice printer.",
+    "es": "La kata clásica de refactorización, rehecha con una estrategia por tipo de obra para sumar un tipo nuevo sin tocar la impresión de la factura."
+   },
+   "technologies": [
+    "Java",
+    "Refactoring",
+    "Design patterns"
+   ],
+   "repoUrl": "https://github.com/Davidongo93/theatrical-players-refactor",
+   "thumbnail": "/backend/theatrical-players.webp"
+  },
+  {
+   "name": "MoneyWise API",
+   "year": "2023",
+   "description": {
+    "en": "Personal finance API from the Java Upskill course: income and expense entries per user, layered into controllers, services and repositories with DTOs.",
+    "es": "API de finanzas personales del curso Java Upskill: ingresos y gastos por usuario, organizada en controladores, servicios y repositorios con DTOs."
+   },
+   "technologies": [
+    "Java 17",
+    "Spring Boot",
+    "H2",
+    "Thymeleaf"
+   ],
+   "repoUrl": "https://github.com/Davidongo93/moneywiseAPI",
+   "thumbnail": "/backend/moneywise-api.webp"
+  }
+ ],
+ "labProjects": [
+  {
+   "name": "Ukraine Population & Roads Map",
+   "description": {
+    "en": "Interactive map of Ukraine population density and road infrastructure from GeoJSON data.",
+    "es": "Mapa interactivo de densidad poblacional e infraestructura vial de Ucrania a partir de datos GeoJSON."
+   },
+   "repoUrl": "https://github.com/Davidongo93/pop-ukraine-map",
+   "liveUrl": "https://pop-ukraine-map.vercel.app/",
+   "technologies": [
+    "Next.js",
+    "TypeScript",
+    "Leaflet",
+    "GeoJSON"
+   ],
+   "type": {
+    "en": "Tech Challenge",
+    "es": "Reto Técnico"
+   },
+   "thumbnail": "/thumbnails/ukraine.webp"
+  },
+  {
+   "name": "GitPulse — Repo Comparison Tool",
+   "description": {
+    "en": "Web app to visualise and compare GitHub repositories with graphs.",
+    "es": "Aplicación web para visualizar y comparar repositorios de GitHub con gráficos."
+   },
+   "repoUrl": "https://github.com/Davidongo93/git-pulse-web",
+   "liveUrl": null,
+   "technologies": [
+    "TypeScript",
+    "React",
+    "GitHub API"
+   ],
+   "type": {
+    "en": "Personal",
+    "es": "Personal"
+   },
+   "thumbnail": null
+  },
+  {
+   "name": "VideoApp API Challenge",
+   "description": {
+    "en": "Backend-oriented full stack challenge with NestJS, JWT auth and PostgreSQL.",
+    "es": "Reto full stack orientado al backend con NestJS, autenticación JWT y PostgreSQL."
+   },
+   "repoUrl": "https://github.com/Davidongo93/videoapp-API-challenge",
+   "liveUrl": null,
+   "technologies": [
+    "TypeScript",
+    "NestJS",
+    "PostgreSQL"
+   ],
+   "type": {
+    "en": "Tech Challenge",
+    "es": "Reto Técnico"
+   },
+   "thumbnail": null
+  },
+  {
+   "name": "Disruptive Media",
+   "description": {
+    "en": "Full stack MERN application for digital media content management.",
+    "es": "Aplicación full stack MERN para gestión de contenido de medios digitales."
+   },
+   "repoUrl": "https://github.com/Davidongo93/disruptive-media",
+   "liveUrl": null,
+   "technologies": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "MongoDB"
+   ],
+   "type": {
+    "en": "Tech Challenge",
+    "es": "Reto Técnico"
+   },
+   "thumbnail": null
+  },
+  {
+   "name": "PI Videogames",
+   "description": {
+    "en": "Full stack videogame catalogue with filtering, sorting and detail pages.",
+    "es": "Catálogo full stack de videojuegos con filtros, ordenamiento y páginas de detalle."
+   },
+   "repoUrl": "https://github.com/Davidongo93/PI-Videogames-main",
+   "liveUrl": null,
+   "technologies": [
+    "JavaScript",
+    "React",
+    "Redux",
+    "Express",
+    "PostgreSQL"
+   ],
+   "type": {
+    "en": "Academic",
+    "es": "Académico"
+   },
+   "thumbnail": null
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "Who am I?",
+    "es": "¿Quién soy?"
+   },
+   "a": {
+    "en": "I'm David Orlando Miranda, a Full Stack Developer based in Colombia. I build fast, scalable web products end to end —from the idea to production— with React, Next.js, Astro, Node.js, NestJS and TypeScript. I work under my personal brand, DÆV.",
+    "es": "Soy David Orlando Miranda, Desarrollador Full Stack radicado en Colombia. Construyo productos web rápidos y escalables de extremo a extremo —desde la idea hasta producción— con React, Next.js, Astro, Node.js, NestJS y TypeScript. Lo hago bajo mi marca personal, DÆV."
+   }
+  },
+  {
+   "q": {
+    "en": "What can I build for you or your company?",
+    "es": "¿Qué puedo construir para ti o para tu empresa?"
+   },
+   "a": {
+    "en": "Landing pages, custom websites, e-commerce stores, educational platforms (LMS), custom software and full SaaS products. I work with both companies and individuals, and I can take a project from design through deployment and maintenance.",
+    "es": "Landing pages, sitios web a medida, tiendas e-commerce, plataformas educativas (LMS), software a medida y productos SaaS completos. Trabajo tanto con empresas como con particulares, y puedo llevar un proyecto desde el diseño hasta el despliegue y el mantenimiento."
+   }
+  },
+  {
+   "q": {
+    "en": "Am I available for new projects?",
+    "es": "¿Estoy disponible para nuevos proyectos?"
+   },
+   "a": {
+    "en": "Yes. I'm open to freelance projects and full-time roles, working remotely with teams across Latin America, the US and Europe. The fastest way to reach me is WhatsApp or email; tell me about your project and I'll get back to you shortly.",
+    "es": "Sí. Estoy abierto a proyectos freelance y a roles de tiempo completo, trabajando de forma remota con equipos de Latinoamérica, EE. UU. y Europa. La vía más rápida es WhatsApp o correo; cuéntame sobre tu proyecto y te respondo enseguida."
+   }
+  },
+  {
+   "q": {
+    "en": "Where am I based and what languages do I work in?",
+    "es": "¿Dónde resido y en qué idiomas trabajo?"
+   },
+   "a": {
+    "en": "I’m based in Colombia and I work in both Spanish and English, collaborating comfortably across time zones in the Americas and Europe.",
+    "es": "Resido en Colombia y trabajo en español e inglés, colaborando sin problema en zonas horarias de América y Europa."
+   }
+  }
+ ],
+ "services": [
+  {
+   "key": "landing",
+   "icon": "rocket",
+   "title": {
+    "en": "Landing Pages",
+    "es": "Landing Pages"
+   },
+   "description": {
+    "en": "Fast, conversion-optimized landing pages that turn visitors into customers.",
+    "es": "Páginas de aterrizaje rápidas y optimizadas para convertir visitantes en clientes."
+   },
+   "whatsapp": {
+    "en": "Hi Dave! I'm interested in a high-impact *landing page* for my business. Can we set up a call?",
+    "es": "¡Hola Dave! Me interesa una *landing page* de alto impacto para mi negocio. ¿Podemos coordinar una llamada?"
+   }
+  },
+  {
+   "key": "website",
+   "icon": "web",
+   "title": {
+    "en": "Custom Websites",
+    "es": "Sitios Web a Medida"
+   },
+   "description": {
+    "en": "Bespoke corporate sites and portfolios — responsive and SEO-ready.",
+    "es": "Sitios corporativos y portafolios a medida, responsivos y listos para SEO."
+   },
+   "whatsapp": {
+    "en": "Hi Dave! I need a *custom website*. I’d like to tell you about my idea.",
+    "es": "¡Hola Dave! Necesito un *sitio web a medida*. Me gustaría contarte mi idea."
+   }
+  },
+  {
+   "key": "ecommerce",
+   "icon": "cart",
+   "title": {
+    "en": "E-commerce",
+    "es": "Comercios Electrónicos"
+   },
+   "description": {
+    "en": "Online stores with payment gateways, cart and product management.",
+    "es": "Tiendas online con pasarelas de pago, carrito y gestión de productos."
+   },
+   "whatsapp": {
+    "en": "Hi Dave! I want to launch an *online store (e-commerce)*. Shall we talk?",
+    "es": "¡Hola Dave! Quiero lanzar una *tienda online (e-commerce)*. ¿Hablamos?"
+   }
+  },
+  {
+   "key": "lms",
+   "icon": "lms",
+   "title": {
+    "en": "Educational Platforms (LMS)",
+    "es": "Plataformas Educativas (LMS)"
+   },
+   "description": {
+    "en": "Learning platforms with courses, roles, progress tracking and assessments.",
+    "es": "Plataformas de aprendizaje con cursos, roles, seguimiento de progreso y evaluaciones."
+   },
+   "whatsapp": {
+    "en": "Hi Dave! I’m looking to build an *educational platform (LMS)*. Can we coordinate?",
+    "es": "¡Hola Dave! Busco desarrollar una *plataforma educativa (LMS)*. ¿Podemos coordinar?"
+   }
+  },
+  {
+   "key": "software",
+   "icon": "software",
+   "title": {
+    "en": "Custom Software",
+    "es": "Software a Medida"
+   },
+   "description": {
+    "en": "Tailored applications that automate and solve your business's specific needs.",
+    "es": "Aplicaciones a medida que automatizan y resuelven necesidades específicas de tu negocio."
+   },
+   "whatsapp": {
+    "en": "Hi Dave! I need *custom software* to solve a specific problem. Can we discuss it?",
+    "es": "¡Hola Dave! Necesito *software a medida* para resolver un problema específico. ¿Lo conversamos?"
+   }
+  },
+  {
+   "key": "saas",
+   "icon": "saas",
+   "title": {
+    "en": "SaaS Products",
+    "es": "Productos SaaS"
+   },
+   "description": {
+    "en": "Scalable SaaS products with subscriptions, multi-tenant and dashboards.",
+    "es": "Productos SaaS escalables, con suscripciones, multi-tenant y panel de control."
+   },
+   "whatsapp": {
+    "en": "Hi Dave! I want to build a *SaaS product*. I’d love your help taking it to production.",
+    "es": "¡Hola Dave! Quiero construir un *producto SaaS*. Me encantaría tu ayuda para llevarlo a producción."
+   }
+  }
+ ],
+ "pricing": {
+  "currency": "COP",
+  "trmUsdToCop": 3426,
+  "trmDate": "2026-06-24",
+  "plans": [
+   {
+    "key": "landing",
+    "icon": "rocket",
+    "name": {
+     "en": "Landing Page",
+     "es": "Landing Page"
+    },
+    "tagline": {
+     "en": "A simple, high-impact one-page site to present your business.",
+     "es": "Un sitio de una sola página, sencillo y de alto impacto para presentar tu negocio."
+    },
+    "priceCop": 850000,
+    "priceSuffix": {
+     "en": "one-time",
+     "es": "pago único"
+    },
+    "featured": false,
+    "fineprint": [
+     {
+      "en": "The price does not include recurring hosting: the first year is free and, from the second year on, it costs COP $300,000 per year.",
+      "es": "El precio no incluye el hosting recurrente: el primer año es sin costo y, a partir del segundo, cuesta $300.000 COP al año."
+     }
+    ],
+    "features": [
+     {
+      "en": "Responsive design for every device",
+      "es": "Diseño adaptable a todos los dispositivos"
+     },
+     {
+      "en": "WhatsApp and social media buttons",
+      "es": "Botones a WhatsApp y redes sociales"
+     },
+     {
+      "en": "Basic search engine optimization (SEO)",
+      "es": "Optimización básica para buscadores (SEO)"
+     },
+     {
+      "en": "Hosting included free for the first year",
+      "es": "Hosting sin costo el primer año"
+     },
+     {
+      "en": "Free basic support for 3 months",
+      "es": "Soporte básico sin costo durante 3 meses"
+     }
+    ],
+    "whatsapp": {
+     "en": "Hi Dave! I’m interested in a *landing page* (COP $850,000). Can we set up a call?",
+     "es": "¡Hola Dave! Me interesa una *landing page* (COP $850.000). ¿Coordinamos una llamada?"
+    }
+   },
+   {
+    "key": "ecommerce",
+    "icon": "cart",
+    "name": {
+     "en": "E-commerce",
+     "es": "E-commerce"
+    },
+    "tagline": {
+     "en": "A complete online store to sell your products with payments.",
+     "es": "Una tienda online completa para vender tus productos con pagos."
+    },
+    "priceCop": 1800000,
+    "priceSuffix": {
+     "en": "from",
+     "es": "desde"
+    },
+    "featured": true,
+    "fineprint": [
+     {
+      "en": "This price covers up to 50 product references and 4 photos per product.",
+      "es": "Este precio cubre únicamente 50 referencias de producto y 4 fotografías por producto."
+     },
+     {
+      "en": "It does not include the fees of the payment gateway you choose.",
+      "es": "No incluye los costos de la pasarela de pago que elijas."
+     }
+    ],
+    "features": [
+     {
+      "en": "Responsive design and basic SEO",
+      "es": "Diseño responsive y SEO básico"
+     },
+     {
+      "en": "WhatsApp and social media buttons",
+      "es": "Botones a WhatsApp y redes sociales"
+     },
+     {
+      "en": "Product catalog and shopping cart",
+      "es": "Catálogo de productos y carrito de compras"
+     },
+     {
+      "en": "Payment gateway integration",
+      "es": "Integración de pasarela de pagos"
+     },
+     {
+      "en": "Admin dashboard",
+      "es": "Panel administrativo"
+     },
+     {
+      "en": "Database",
+      "es": "Base de datos"
+     },
+     {
+      "en": "Free premium support for 3 months",
+      "es": "Soporte premium sin costo durante 3 meses"
+     }
+    ],
+    "whatsapp": {
+     "en": "Hi Dave! I want an *e-commerce store* (from COP $1,800,000). Shall we talk?",
+     "es": "¡Hola Dave! Quiero una *tienda e-commerce* (desde COP $1.800.000). ¿Hablamos?"
+    }
+   },
+   {
+    "key": "lms",
+    "icon": "lms",
+    "name": {
+     "en": "LMS · Educational Platform",
+     "es": "LMS · Plataforma Educativa"
+    },
+    "tagline": {
+     "en": "A learning platform with courses, students and progress tracking.",
+     "es": "Una plataforma de aprendizaje con cursos, estudiantes y seguimiento de progreso."
+    },
+    "priceCop": 1500000,
+    "priceSuffix": {
+     "en": "from",
+     "es": "desde"
+    },
+    "featured": false,
+    "features": [
+     {
+      "en": "User management",
+      "es": "Gestión de usuarios"
+     },
+     {
+      "en": "Roles (Admin, Instructor, Student)",
+      "es": "Roles (Administrador, Instructor, Estudiante)"
+     },
+     {
+      "en": "Course management",
+      "es": "Gestión de cursos"
+     },
+     {
+      "en": "Modules and lessons",
+      "es": "Módulos y lecciones"
+     },
+     {
+      "en": "Assessments",
+      "es": "Evaluaciones"
+     },
+     {
+      "en": "Quizzes",
+      "es": "Cuestionarios"
+     },
+     {
+      "en": "Progress tracking",
+      "es": "Seguimiento de progreso"
+     },
+     {
+      "en": "PDF certificates with QR code",
+      "es": "Certificados PDF con código QR"
+     },
+     {
+      "en": "Admin dashboard",
+      "es": "Panel administrativo"
+     },
+     {
+      "en": "Database",
+      "es": "Base de datos"
+     },
+     {
+      "en": "Responsive design with basic optimization (SEO)",
+      "es": "Diseño responsive con optimización básica (SEO)"
+     },
+     {
+      "en": "Free premium support for 3 months",
+      "es": "Soporte premium sin costo durante 3 meses"
+     }
+    ],
+    "fineprint": [
+     {
+      "en": "Includes 1 administrator, 1 instructor, 10 modules and unlimited students.",
+      "es": "Incluye 1 administrador, 1 instructor, 10 módulos y estudiantes ilimitados."
+     }
+    ],
+    "whatsapp": {
+     "en": "Hi Dave! I’m interested in an *educational platform (LMS)* (from COP $1,500,000). Can we coordinate?",
+     "es": "¡Hola Dave! Me interesa una *plataforma educativa (LMS)* (desde COP $1.500.000). ¿Podemos coordinar?"
+    }
+   }
+  ],
+  "infrastructure": [
+   {
+    "key": "domain",
+    "icon": "domain",
+    "name": {
+     "en": "Domain",
+     "es": "Dominio"
+    },
+    "priceUsd": null,
+    "priceCop": null,
+    "per": null,
+    "note": {
+     "en": "Variable — depends on the domain you choose, or free if you already own one.",
+     "es": "Variable — depende del dominio que elijas, o sin costo si ya tienes uno."
+    }
+   },
+   {
+    "key": "hosting-landing",
+    "icon": "hosting",
+    "name": {
+     "en": "Hosting · Landing Page",
+     "es": "Hosting · Landing Page"
+    },
+    "priceUsd": null,
+    "priceCop": 300000,
+    "per": {
+     "en": "/year",
+     "es": "/año"
+    },
+    "note": {
+     "en": "First year free.",
+     "es": "Primer año sin costo."
+    }
+   },
+   {
+    "key": "hosting-store",
+    "icon": "hosting",
+    "name": {
+     "en": "Hosting · E-commerce & LMS",
+     "es": "Hosting · E-commerce y LMS"
+    },
+    "priceUsd": 540,
+    "priceCop": null,
+    "per": {
+     "en": "/year",
+     "es": "/año"
+    },
+    "note": {
+     "en": "Resources for an online store or learning platform.",
+     "es": "Recursos para una tienda online o plataforma educativa."
+    }
+   }
+  ],
+  "addons": [
+   {
+    "key": "email",
+    "icon": "email",
+    "name": {
+     "en": "Email marketing lists",
+     "es": "Listas de correo"
+    },
+    "description": {
+     "en": "Send campaigns to up to 5,000 contacts.",
+     "es": "Envía campañas a hasta 5.000 contactos."
+    },
+    "priceUsd": 10,
+    "priceCop": null,
+    "per": {
+     "en": "/month",
+     "es": "/mes"
+    },
+    "priceLabel": null
+   },
+   {
+    "key": "api",
+    "icon": "api",
+    "name": {
+     "en": "API integrations",
+     "es": "Integraciones con APIs"
+    },
+    "description": {
+     "en": "Connect services like Meta, Telegram and others. The cost depends on the service and may vary.",
+     "es": "Conexión con servicios como Meta, Telegram y otros. El costo depende del servicio y puede variar."
+    },
+    "priceUsd": null,
+    "priceCop": null,
+    "per": null,
+    "priceLabel": {
+     "en": "Variable",
+     "es": "Variable"
+    }
+   },
+   {
+    "key": "chatbot",
+    "icon": "chatbot",
+    "name": {
+     "en": "Chatbot integration",
+     "es": "Integración de chatbots"
+    },
+    "description": {
+     "en": "Automated assistants for your site or channels. Variable price, agreed per project.",
+     "es": "Asistentes automatizados para tu sitio o canales. Precio variable y a convenir."
+    },
+    "priceUsd": null,
+    "priceCop": null,
+    "per": null,
+    "priceLabel": {
+     "en": "On request",
+     "es": "A convenir"
+    }
+   },
+   {
+    "key": "seo",
+    "icon": "seo",
+    "name": {
+     "en": "SEO positioning strategy",
+     "es": "Estrategia de posicionamiento SEO"
+    },
+    "description": {
+     "en": "Search positioning strategy with Google metrics and tracking.",
+     "es": "Estrategia de posicionamiento con métricas de Google y seguimiento."
+    },
+    "priceUsd": null,
+    "priceCop": null,
+    "per": null,
+    "priceLabel": {
+     "en": "On request",
+     "es": "A convenir"
+    }
+   },
+   {
+    "key": "scheduling",
+    "icon": "scheduling",
+    "name": {
+     "en": "Booking & appointment scheduling",
+     "es": "Integración y agendamiento de citas"
+    },
+    "description": {
+     "en": "Bookings and appointment scheduling — ideal for independent professionals.",
+     "es": "Reservas y agendamiento de citas, ideal para profesionales independientes."
+    },
+    "priceUsd": null,
+    "priceCop": null,
+    "per": null,
+    "priceLabel": {
+     "en": "On request",
+     "es": "A convenir"
+    }
+   }
+  ],
+  "support": [
+   {
+    "key": "support-basic",
+    "icon": "support-basic",
+    "name": {
+     "en": "Monthly support · Basic",
+     "es": "Soporte mensual · Básico"
+    },
+    "description": {
+     "en": "Add simple features and edit texts and sections.",
+     "es": "Agrega funcionalidades sencillas y modifica textos y secciones."
+    },
+    "priceUsd": null,
+    "priceCop": 150000,
+    "per": {
+     "en": "/month",
+     "es": "/mes"
+    },
+    "priceLabel": null
+   },
+   {
+    "key": "support-premium",
+    "icon": "support-premium",
+    "name": {
+     "en": "Monthly support · Premium",
+     "es": "Soporte mensual · Premium"
+    },
+    "description": {
+     "en": "Add features, edit texts and sections, plus 24/7 technical support.",
+     "es": "Agrega funcionalidades, modifica textos y secciones, y soporte técnico 24/7."
+    },
+    "priceUsd": null,
+    "priceCop": 350000,
+    "per": {
+     "en": "/month",
+     "es": "/mes"
+    },
+    "priceLabel": null
+   }
+  ],
+  "quoteWhatsapp": {
+   "en": "Hi Dave! I need a quote for a custom project. Let me share the details.",
+   "es": "¡Hola Dave! Necesito una cotización para un proyecto a medida. Te cuento los detalles."
+  },
+  "domainExample": {
+   "items": [
+    {
+     "label": {
+      "en": ".CO Domain",
+      "es": "Dominio .CO"
+     },
+     "domain": "example.co",
+     "term": {
+      "en": "1 Year",
+      "es": "1 año"
+     },
+     "priceUsd": 29.99,
+     "renewsUsd": 56.99,
+     "offUsd": 27
+    },
+    {
+     "label": {
+      "en": ".COM.CO Domain",
+      "es": "Dominio .COM.CO"
+     },
+     "domain": "example.com.co",
+     "term": {
+      "en": "3 Years — $20/yr",
+      "es": "3 años — $20/año"
+     },
+     "priceUsd": 60,
+     "renewsUsd": 125.97,
+     "offUsd": 65.97
+    }
+   ]
+  }
+ },
+ "codeSnippet": "class DavidMiranda extends MasterProgrammer {\n  constructor() {\n    super(\n      'David Orlando Miranda',\n      'Full Stack Developer',\n      {\n        years: 4,\n        companiesWorkedWith: 3,\n        projectsCompleted: 10,\n      },\n      {\n        frontend: ['React', 'Next.js', 'Vue', 'TypeScript'],\n        backend: ['Node.js', 'NestJS', 'Express', 'PostgreSQL'],\n        other: ['Git', 'Docker', 'NX', 'Redux', 'GraphQL'],\n      }\n    );\n    this.email = 'domirandar@gmail.com';\n  }\n}"
+}
