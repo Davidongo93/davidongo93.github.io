@@ -4,11 +4,13 @@ The text-mode edition of [daev.space](https://daev.space): the same story in
 English, written in plain HTML, opening with a (fictional) disclaimer from an
 author who lives inside the network.
 
-- 0 bytes of CSS, 0 bytes of JavaScript, 0 images.
-- ASCII art only: the banner, browser windows, charts, the timeline and a
-  portrait drawn with ten characters.
-- Exactly one link on the page, and it is the only thing in colour: the way
-  back to daev.space.
+- Only HTML, pushed as far as it goes: `accesskey` shortcuts, exclusive
+  `<details name>` accordions, tables with `<meter>` and `<progress>`, `<ruby>`,
+  a native form that opens WhatsApp, and a Jedi patrolling in a `<marquee>`.
+- ASCII art for the banner, browser windows, the timeline and the portrait.
+- The CV in English and Spanish, downloadable from the page (`cv/`, copied from
+  daev-portfolio on every build).
+- The Jedi Order favicon from the original site.
 
 ## Regenerate
 
