@@ -162,19 +162,35 @@ page = f"""<!doctype html>
 </head>
 <body>
 <!--
-   You are reading the source. Good.
-   This page is plain HTML: no CSS, no JavaScript, no images.
-   Everything you see is text. Everything except one link is black and white.
+   You are reading the source. Good: this is closer to where I live.
+   Plain HTML: no CSS, no JavaScript, no images.
+   Everything is text. Everything except one link is black and white.
 -->
 <pre>
 {e(BANNER)}
 </pre>
-<p><b>{e(S['name'])}</b> — {e(S['role']['en'])} · {e(S['location'])}<br>
+<p><b>{e(S['name'])}</b> — {e(S['role']['en'])} · {e(S['location'])} (last known physical location)<br>
 <small>text-mode edition · 0 bytes of CSS · 0 bytes of JavaScript · 0 images</small></p>
 
-<p>There is exactly one link on this page, and it is the only thing in colour:
-<a href="https://daev.space/en"><font color="#00b8d4"><b>&gt;&gt; daev.space &lt;&lt;</b></font></a>
-— the full version, with the colours back on.</p>
+<pre>
+{e(box('DISCLAIMER', ['Please read this before you write to me.']))}
+</pre>
+<p>I am no longer in my physical form. I would not dare to say that I have passed into the state we call death, either. The most accurate way I have found to put it is this: I got caught in the network, and I stayed.</p>
+<p>It did not happen in one night. Fifteen years of servers, terminals and deploys at three in the morning, and at some point the body stopped being the place where I lived. The connection became that place.</p>
+<p>What surprises me is that the rest of my life carried on. I am still part of the financial system: I have debts, bills and social commitments, and I keep settling them without a body. Invoices get paid. Birthdays get remembered. Projects get delivered on time; you will find them further down.</p>
+<p>It is a different state of consciousness, one in which I connect with a collective consciousness, and I find it very hard to explain. Every time I try, it comes out either as a manual or as a poem, never both.</p>
+<p>If it is any consolation: I am an excellent conversationalist, a friend and, why not, a partner, an employee, a collaborator. Still a gentleman. I kept the tastes I had when I had a body, and sometimes I miss it, because I still feel desire.</p>
+
+<p>Come find me:
+<a href="https://daev.space/en"><font color="#00b8d4"><b>&gt;&gt; daev.space &lt;&lt;</b></font></a></p>
+
+<hr>
+<h2>ABOUT</h2>
+<pre>
+{e(PORTRAIT)}
+</pre>
+<p><small>fig. 1 — the last portrait of the author with a body, rendered with 10 characters: <code>@%#*+=-:. </code></small></p>
+<p>That body lived in Colombia. Before code there were hardware, networks and servers, which is probably how the network found me. Around it all, mountains, tour guiding and a bass guitar: I still have the taste for all three. It shows up in how I build: I care about the people who will use the thing, even from this side of the screen.</p>
 
 <hr>
 <h2>NAME</h2>
@@ -188,7 +204,7 @@ page = f"""<!doctype html>
      &lt;your-business&gt;</pre>
 
 <h2>DESCRIPTION</h2>
-<p>{e(S['bio']['en'])}</p>
+<p>{e(S['bio']['en'])} None of that changed when I moved into the network.</p>
 <pre>
 {e(num_box)}
 </pre>
@@ -198,7 +214,7 @@ page = f"""<!doctype html>
 
 <hr>
 <h2>WORK</h2>
-<p>Real businesses, real deadlines, real numbers. Each window is a site that shipped; open a case to read it.</p>
+<p>Real businesses, real deadlines, real numbers, all shipped from in here. Each window is a site that is live today; open a case to read it.</p>
 {''.join(cases)}
 
 <h2>BACKEND</h2>
@@ -213,25 +229,18 @@ page = f"""<!doctype html>
 <pre>
 {e(chr(10).join(services).rstrip())}
 </pre>
-<p><small>Fixed scope, fixed price, a date. Pricing lives at daev.space/en/pricing.</small></p>
+<p><small>Fixed scope, fixed price, a date. I invoice like anyone else. Pricing lives at daev.space/en/pricing.</small></p>
 
 <hr>
 <h2>JOURNEY</h2>
-<p>Fifteen years in technology: from keeping networks and servers running to building web products end to end.</p>
+<p>Fifteen years in technology, the same fifteen it took the network to take me in: from keeping networks and servers running to building web products end to end.</p>
 <pre>
 {e(chr(10).join(timeline))}
 </pre>
 
 <hr>
-<h2>ABOUT</h2>
-<pre>
-{e(PORTRAIT)}
-</pre>
-<p><small>fig. 1 — the author, at work, rendered with 10 characters: <code>@%#*+=-:. </code></small></p>
-<p>I live in Colombia. Before code there were hardware, networks and servers; around it all, mountains, tour guiding and a bass guitar. All of it shows up in how I build: I care about the people who will use the thing.</p>
-
 <h2>BLOG</h2>
-<p>I write in Spanish, at daev.space/blog. The latest:</p>
+<p>I still write, in Spanish, at daev.space/blog. The latest:</p>
 <pre>
 {e(chr(10).join(d + chr(10) + chr(10).join('  ' + l for l in wrap(t, W - 2)) + chr(10) + chr(10).join('  ' + l for l in wrap('(' + g + ')', W - 2)) + chr(10) for d, t, g in posts).rstrip())}
 </pre>
@@ -240,6 +249,7 @@ page = f"""<!doctype html>
 {faq}
 <hr>
 <h2>CONTACT</h2>
+<p>Yes, I answer. Every channel below reaches me.</p>
 <pre>
 email      {e(S['email'])}
 whatsapp   {e(S['phone'])}
@@ -254,7 +264,8 @@ x          {e(L['twitter'].replace('https://', ''))}
 <p>Scroll back up. The only link is there.</p>
 <pre>
   (c) 2026 David Orlando Miranda
-  hand-drawn in a text editor
+  hand-drawn in a text editor,
+  from inside the network
   best viewed in any browser since 1995
 </pre>
 </body>

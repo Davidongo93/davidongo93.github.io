@@ -132,8 +132,8 @@
     "es": "2023 – actual"
    },
    "description": {
-    "en": "Websites, stores and platforms for my own clients, from the first call to their domain: Chez Boaz Tours, Ópticas Apolo Visión, Climb Rock and more.",
-    "es": "Sitios, tiendas y plataformas para clientes propios, de la primera llamada a su dominio: Chez Boaz Tours, Ópticas Apolo Visión, Climb Rock y otros."
+    "en": "Websites, stores and platforms for my own clients, from the first call to their domain: Chez Boaz Tours, Ópticas Apolo Visión, Climb Rock, Chilcuague, ArteSano Market and more.",
+    "es": "Sitios, tiendas y plataformas para clientes propios, de la primera llamada a su dominio: Chez Boaz Tours, Ópticas Apolo Visión, Climb Rock, Chilcuague, ArteSano Market y otros."
    },
    "website": null
   },
@@ -431,6 +431,128 @@
    "role": {
     "en": "Design & full stack",
     "es": "Diseño y full stack"
+   }
+  },
+  {
+   "slug": "chilcuague",
+   "name": "Chilcuague",
+   "product": null,
+   "summary": {
+    "en": "Store and back office for a natural-extracts brand selling in Ecuador and Colombia.",
+    "es": "Tienda y panel de gestión para una marca de extractos naturales que vende en Ecuador y Colombia."
+   },
+   "sector": {
+    "en": "Natural products · Ecuador & Colombia",
+    "es": "Productos naturales · Ecuador y Colombia"
+   },
+   "problem": {
+    "en": "A small maker of golden-root extracts sold through Instagram, WhatsApp and partner shops, with production costs, consignment stock and sales per shop tracked by hand.",
+    "es": "Un pequeño productor de extractos de raíz de oro vendía por Instagram, WhatsApp y tiendas aliadas, y llevaba a mano los costos de producción, el stock en consignación y las ventas de cada tienda."
+   },
+   "work": {
+    "en": "A bilingual, two-country store with prices in USD and COP, an interactive body map of traditional and studied uses, and an admin covering inventory, production batches with their costs, consignment per partner shop and sales analytics.",
+    "es": "Una tienda bilingüe en dos países con precios en USD y COP, un mapa corporal interactivo de usos tradicionales y estudiados, y un panel con inventario, lotes de producción con sus costos, consignación por tienda aliada y analítica de ventas."
+   },
+   "metrics": [],
+   "highlights": [
+    {
+     "en": "Two countries and two languages from a single store",
+     "es": "Dos países y dos idiomas desde una sola tienda"
+    },
+    {
+     "en": "Production batches costed and transferred to inventory",
+     "es": "Lotes de producción con costo y traslado a inventario"
+    },
+    {
+     "en": "Consignment stock and sales tracked per partner shop",
+     "es": "Stock en consignación y ventas por tienda aliada"
+    },
+    {
+     "en": "Interactive body map with each use labelled by its evidence",
+     "es": "Mapa corporal interactivo con cada uso etiquetado según su evidencia"
+    }
+   ],
+   "technologies": [
+    "Astro",
+    "SSR",
+    "Cloudflare Workers",
+    "Supabase",
+    "Cloudinary",
+    "TypeScript"
+   ],
+   "liveUrl": "https://chilcuague.site",
+   "repoUrl": null,
+   "thumbnail": "/thumbnails/chilcuague.webp",
+   "gallery": [
+    "/work/chilcuague/1.webp",
+    "/work/chilcuague/2.webp",
+    "/work/chilcuague/3.webp"
+   ],
+   "year": "2026",
+   "role": {
+    "en": "Design & full stack",
+    "es": "Diseño y full stack"
+   }
+  },
+  {
+   "slug": "artesano-market",
+   "name": "ArteSano Market",
+   "product": null,
+   "summary": {
+    "en": "Online store, till and consignment back office for a community market in Ayampe.",
+    "es": "Tienda en línea, caja y control de consignación para un mercado comunitario en Ayampe."
+   },
+   "sector": {
+    "en": "Community market · Ayampe, Ecuador",
+    "es": "Mercado comunitario · Ayampe, Ecuador"
+   },
+   "problem": {
+    "en": "A market that sells what its neighbours make, on consignment, had to work out every month by hand what each maker had sold, what stock was left and how much they were owed.",
+    "es": "Un mercado que vende en consignación lo que hacen sus vecinos tenía que calcular a mano, cada mes, cuánto vendió cada emprendedor, qué stock quedaba y cuánto había que pagarle."
+   },
+   "work": {
+    "en": "A bilingual store with a showcase for every maker, plus a back office with a till for in-store sales, web orders that only touch stock once confirmed, and a monthly close per maker that reconciles the count and settles the commission.",
+    "es": "Una tienda bilingüe con vitrina para cada emprendedor, y un panel con caja para la venta en el local, pedidos web que solo tocan el stock al confirmarse y un cierre de mes por emprendedor que cuadra el conteo y liquida la comisión."
+   },
+   "metrics": [],
+   "highlights": [
+    {
+     "en": "In-store till and web orders on the same stock",
+     "es": "Caja del local y pedidos web sobre el mismo stock"
+    },
+    {
+     "en": "Monthly close per maker: count, adjustment and payout",
+     "es": "Cierre de mes por emprendedor: conteo, ajuste y liquidación"
+    },
+    {
+     "en": "Commission per maker, overridable per product",
+     "es": "Comisión por emprendedor, ajustable por producto"
+    },
+    {
+     "en": "Brand manual, vector logo and palette delivered with the site",
+     "es": "Manual de marca, logo vectorizado y paleta entregados con el sitio"
+    }
+   ],
+   "technologies": [
+    "Astro",
+    "SSR",
+    "Cloudflare Workers",
+    "Supabase",
+    "Cloudinary",
+    "TypeScript"
+   ],
+   "liveUrl": "https://artesanomarket.domirandar.workers.dev",
+   "repoUrl": null,
+   "thumbnail": "/thumbnails/artesano.webp",
+   "gallery": [
+    "/work/artesano-market/1.webp",
+    "/work/artesano-market/2.webp",
+    "/work/artesano-market/3.webp"
+   ],
+   "year": "2026",
+   "role": {
+    "en": "Brand, design & full stack",
+    "es": "Marca, diseño y full stack"
    }
   },
   {

@@ -1,7 +1,8 @@
 # davidongo93.github.io — DÆV in text mode
 
 The text-mode edition of [daev.space](https://daev.space): the same story in
-English, written in plain HTML.
+English, written in plain HTML, opening with a (fictional) disclaimer from an
+author who lives inside the network.
 
 - 0 bytes of CSS, 0 bytes of JavaScript, 0 images.
 - ASCII art only: the banner, browser windows, charts, the timeline and a
