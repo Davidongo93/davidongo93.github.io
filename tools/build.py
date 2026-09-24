@@ -201,24 +201,53 @@ NAV = [('about', 'a', 'About'), ('work', 'w', 'Work'), ('services', 's', 'Servic
 nav = ' · '.join(f'<a href="#{i}" accesskey="{k}">{t}</a>' for i, k, t in NAV)
 
 L = S['links']
-DESC = (f"{S['name']}, specialized full stack developer. Custom websites, landing pages, scalable web apps "
-        "and robust backends, told in plain HTML by an author who lives inside the network.")
+DESC = ("David Orlando Miranda (DÆV), full stack developer in Colombia: custom websites, landing pages, "
+        "scalable web apps and robust backends. Real client cases.")
+TITLE = "David Orlando Miranda · Full Stack Developer in Colombia | DÆV"
+OG_IMG = "https://davidongo93.github.io/og.png"
+LD = json.dumps({
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://davidongo93.github.io/",
+    "name": TITLE,
+    "mainEntity": {
+        "@type": "Person",
+        "name": S['name'],
+        "alternateName": ["DÆV", "Dave Miranda"],
+        "jobTitle": S['role']['en'],
+        "url": S['siteUrl'],
+        "image": S['photo'],
+        "email": "mailto:" + S['email'],
+        "address": {"@type": "PostalAddress", "addressCountry": "CO"},
+        "knowsAbout": S['skills']['frontend'] + S['skills']['backend'],
+        "sameAs": [S['siteUrl'], L['github'], L['linkedin'], L['twitter'], L['instagram']],
+    },
+}, ensure_ascii=False)
+
 page = f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>DÆV — David Orlando Miranda · Full Stack Developer</title>
+<meta name="color-scheme" content="only light">
+<title>{e(TITLE)}</title>
 <meta name="description" content="{e(DESC)}">
 <meta name="author" content="{e(S['name'])}">
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="canonical" href="https://davidongo93.github.io/">
-<link rel="alternate" href="https://daev.space/en" hreflang="en">
 <meta property="og:type" content="profile">
-<meta property="og:title" content="DÆV — David Orlando Miranda">
+<meta property="og:title" content="{e(TITLE)}">
 <meta property="og:description" content="{e(DESC)}">
 <meta property="og:url" content="https://davidongo93.github.io/">
+<meta property="og:image" content="{OG_IMG}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="DÆV — David Orlando Miranda, full stack developer">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@domirandar">
+<meta name="twitter:image" content="{OG_IMG}">
+<script type="application/ld+json">{LD}</script>
 </head>
 <body>
 <!--
@@ -228,7 +257,8 @@ page = f"""<!doctype html>
 <pre role="img" aria-label="DÆV">
 {e(BANNER)}
 </pre>
-<p><b>{e(S['name'])}</b> (<ruby>DÆV<rp>(</rp><rt>dave</rt><rp>)</rp></ruby>) — {e(S['role']['en'])} · {e(S['location'])} <small>(last known physical location)</small></p>
+<h1>{e(S['name'])}</h1>
+<p>(<ruby>DÆV<rp>(</rp><rt>dave</rt><rp>)</rp></ruby>) — {e(S['role']['en'])} · {e(S['location'])} <small>(last known physical location)</small></p>
 <nav aria-label="Sections"><small>{nav}</small></nav>
 </header>
 
@@ -377,4 +407,9 @@ page = f"""<!doctype html>
 </html>
 """
 OUT.write_text(page)
+(OUT.parent / 'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: https://davidongo93.github.io/sitemap.xml\n')
+(OUT.parent / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    f'  <url><loc>https://davidongo93.github.io/</loc><lastmod>{__import__("datetime").date.today()}</lastmod></url>\n'
+    '</urlset>\n')
 print(f'{OUT} · {len(page):,} bytes · <a> count: {page.count("<a ")} · style: {"style" in page.lower()} · script: {"<script" in page.lower()}')

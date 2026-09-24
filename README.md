@@ -4,7 +4,7 @@ The text-mode edition of [daev.space](https://daev.space): the same story in
 English, written in plain HTML, opening with a (fictional) disclaimer from an
 author who lives inside the network.
 
-- Only HTML, pushed as far as it goes: `accesskey` shortcuts, exclusive
+- Only HTML (plus a JSON-LD data block for search engines), pushed as far as it goes: `accesskey` shortcuts, exclusive
   `<details name>` accordions, tables with `<meter>` and `<progress>`, `<ruby>`,
   a native form that opens WhatsApp, and Yoda and Darth Vader facing off in a
   `<marquee>`.
@@ -24,3 +24,8 @@ python3 tools/build.py        # writes ./index.html
 ```
 
 The previous Jekyll portfolio lives in the git history (commit `bc242d6`).
+
+## SEO
+
+`build.py` also writes `robots.txt` and `sitemap.xml`. `og.png` (1200×630) is the
+share image; regenerate it by hand if the banner or the role changes.
