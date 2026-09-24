@@ -233,6 +233,7 @@ page = f"""<!doctype html>
 <title>{e(TITLE)}</title>
 <meta name="description" content="{e(DESC)}">
 <meta name="author" content="{e(S['name'])}">
+<meta name="google-site-verification" content="WzLa8othxIUHHwWtaHUiX-33fJ-JOTXh0rkxtKBwsUA">
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="canonical" href="https://davidongo93.github.io/">
 <meta property="og:type" content="profile">
