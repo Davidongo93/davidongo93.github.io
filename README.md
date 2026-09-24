@@ -6,7 +6,8 @@ author who lives inside the network.
 
 - Only HTML, pushed as far as it goes: `accesskey` shortcuts, exclusive
   `<details name>` accordions, tables with `<meter>` and `<progress>`, `<ruby>`,
-  a native form that opens WhatsApp, and a Jedi patrolling in a `<marquee>`.
+  a native form that opens WhatsApp, and Yoda and Darth Vader facing off in a
+  `<marquee>`.
 - ASCII art for the banner, browser windows, the timeline and the portrait.
 - The CV in English and Spanish, downloadable from the page (`cv/`, copied from
   daev-portfolio on every build).

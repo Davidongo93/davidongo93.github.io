@@ -161,22 +161,12 @@ for i, x in enumerate(S['experience']):
     timeline.append('|' if not last else '')
 timeline += ["o--- 2005", "     first line of code: a website for a", "     rock band, built in Dreamweaver"]
 
-posts = [
-    ('2026-07-31', 'chucula-de-los-7-granos', 'Chucula de los 7 granos: la receta ancestral que queremos revivir', 'A seven-grain cacao drink we want to bring back'),
-    ('2026-07-30', 'proksanty-un-viaje-al-origen-del-cacao', 'Proksanty: un viaje al origen del cacao en Nilo, Cundinamarca', 'A trip to the origin of cacao'),
-    ('2026-07-03', 'chilcuague-raiz-de-oro-historia-y-propiedades', 'Chilcuague: la Raíz de Oro de México, su historia y sus propiedades', 'The golden root of Mexico'),
-    ('2026-06-28', 'el-mundo-se-lleno-de-agentes-smith', 'El mundo se llenó de agentes Smith', 'The world filled up with Agent Smiths'),
-    ('2026-06-23', 'breve-historia-del-programador', 'Recalculando rumbo', 'How I started programming'),
-]
-blog = ''.join(
-    f'<li><time datetime="{d}">{d}</time> — <a href="https://daev.space/blog/{s}" lang="es" hreflang="es">{e(t)}</a>'
-    f'<br><small>{e(g)}</small></li>' for d, s, t, g in posts)
-
 faq = ''.join(f"<details name=\"faq\"><summary>{e(f['q']['en'])}</summary><p>{e(f['a']['en'])}</p></details>\n" for f in S['faq'])
 
 
-# ── Final: un maestro Jedi que va y viene, sable verde incluido ──────
-JEDI = r"""                  ¦
+# ── Final: Yoda y Vader van y vienen, cada uno con su sable ──────
+YODA = r"""
+                  ¦
                   ¦
                   ¦
    __  .----.  __ ¦
@@ -187,12 +177,27 @@ JEDI = r"""                  ¦
     (_/  ..  \___/
        /  /\  \
       /__/  \__\
-""".rstrip()
-jedi = e(JEDI).replace('¦', '<font color="#3ddc84"><b>|</b></font>')
+""".strip('\n').split('\n')
+VADER = r"""
+ ‡     _.---._
+ ‡    / _____ \
+ ‡   | /     \ |
+ ‡   |/ () () \|
+ ‡   /\  _^_  /\
+ ‡  /  \/|||\/  \
+ ‡ /   /     \   \
+[#]__/  [==]  \   \
+    /__________\
+      |  |  |
+     /__/  \__\
+""".strip('\n').split('\n')
+JEDI = '\n'.join(f"{y:<22}{v}".rstrip() for y, v in zip(YODA, VADER))
+jedi = (e(JEDI).replace('¦', '<font color="#3ddc84"><b>|</b></font>')
+        .replace('‡', '<font color="#ff3b30"><b>|</b></font>'))
 
 # Navegación: accesskey da un atajo de teclado nativo a cada sección.
 NAV = [('about', 'a', 'About'), ('work', 'w', 'Work'), ('services', 's', 'Services'),
-       ('journey', 'j', 'Journey'), ('blog', 'b', 'Blog'), ('faq', 'f', 'FAQ'), ('contact', 'c', 'Contact')]
+       ('journey', 'j', 'Journey'), ('faq', 'f', 'FAQ'), ('contact', 'c', 'Contact')]
 nav = ' · '.join(f'<a href="#{i}" accesskey="{k}">{t}</a>' for i, k, t in NAV)
 
 L = S['links']
@@ -320,14 +325,6 @@ page = f"""<!doctype html>
 </section>
 
 <hr>
-<section id="blog">
-<h2>BLOG</h2>
-<p>I still write, in Spanish, at <a href="https://daev.space/blog">daev.space/blog</a>. The latest:</p>
-<ol reversed>
-{blog}
-</ol>
-</section>
-
 <section id="faq">
 <h2>FAQ</h2>
 {faq}</section>
@@ -360,16 +357,16 @@ page = f"""<!doctype html>
 </main>
 
 <hr>
-<section id="jedi" aria-label="A Jedi master, patrolling the end of the page">
+<section id="jedi" aria-label="Yoda and Darth Vader, facing off at the end of the page">
 <marquee behavior="alternate" scrollamount="3" scrolldelay="60"><pre>
 {jedi}
 </pre></marquee>
-<p><small><i>Do. Or do not. There is no try.</i> — the only mentor who ever visited me in here.</small></p>
+<p><small><i>Do. Or do not. There is no try.</i> — the only mentor who ever visited me in here. The other one keeps offering me the dark side; so far, I decline.</small></p>
 </section>
 
 <hr>
 <footer>
-<p>Scroll back up, or press <kbd>Alt</kbd> + <kbd>Shift</kbd> + a section's first letter (<kbd>A</kbd>, <kbd>W</kbd>, <kbd>S</kbd>, <kbd>J</kbd>, <kbd>B</kbd>, <kbd>F</kbd>, <kbd>C</kbd>) to jump.</p>
+<p>Scroll back up, or press <kbd>Alt</kbd> + <kbd>Shift</kbd> + a section's first letter (<kbd>A</kbd>, <kbd>W</kbd>, <kbd>S</kbd>, <kbd>J</kbd>, <kbd>F</kbd>, <kbd>C</kbd>) to jump.</p>
 <pre>
   (c) <time datetime="2026">2026</time> David Orlando Miranda
   hand-drawn in a text editor,
